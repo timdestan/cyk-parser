@@ -3,8 +3,8 @@
 require_relative 'tree'
 require_relative 'cyk'
 
-TRAINING_FILENAME = 'f2-21.train.parse.noLEX'
-TEST_FILENAME = 'f2-21.test.parse.noLEX'
+TRAINING_FILENAME = 'data/f2-21.train.parse.noLEX'
+TEST_FILENAME = 'data/f2-21.test.parse.noLEX'
 
 # Reads an array of trees from the given filename.
 def read_trees(filename)
@@ -72,7 +72,7 @@ def do_work(parser, trees, output_strings, timings)
         $stderr.flush()
       end
     end
-    
+
     tree = trees[number]
     pos = tree.get_leaves()
 

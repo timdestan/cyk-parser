@@ -6,8 +6,8 @@ require_relative 'cyk'
 
 require 'ruby-prof'
 
-TRAINING_FILENAME = 'f2-21.train.parse.noLEX'
-TEST_FILENAME = 'f2-21.test.parse.noLEX'
+TRAINING_FILENAME = 'data/f2-21.train.parse.noLEX'
+TEST_FILENAME = 'data/f2-21.test.parse.noLEX'
 
 # Reads an array of trees from the given filename.
 def read_trees(filename, limit=nil)
