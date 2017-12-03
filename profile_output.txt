@@ -1,0 +1,19 @@
+Total: 160279 samples
+  137115  85.5%  85.5%   151455  94.5% Enumerable#each_with_index
+   11337   7.1%  92.6%    11338   7.1% NilClass#nil?
+    3116   1.9%  94.6%   158031  98.6% Range#each
+    2446   1.5%  96.1%     2455   1.5% Array3D#[]
+    2248   1.4%  97.5%     2248   1.4% garbage_collector
+    1745   1.1%  98.6%     2622   1.6% Array#include?
+     877   0.5%  99.1%      877   0.5% String#==
+     562   0.4%  99.5%      562   0.4% Hash#[]=
+     374   0.2%  99.7%      374   0.2% Hash#keys
+     187   0.1%  99.8%      187   0.1% Array#select
+     149   0.1%  99.9%      711   0.4% Array3D#[]=
+     108   0.1% 100.0%      117   0.1% Kernel#nil?
+       9   0.0% 100.0%        9   0.0% Hash#default
+       5   0.0% 100.0%      379   0.2% Array3D#get_k_set_indices
+       1   0.0% 100.0%        1   0.0% Hash#initialize
+       0   0.0% 100.0%        1   0.0% Array3D#initialize
+       0   0.0% 100.0%   158031  98.6% CYKParser#parse
+       0   0.0% 100.0%        1   0.0% Integer#times
