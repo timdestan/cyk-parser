@@ -1,10 +1,3 @@
-
-class TreeFormatException < Exception
-  def initialize(s)
-    super(s)
-  end
-end
-
 class Tree
   PAD_CHAR = "  "
 
@@ -35,7 +28,7 @@ class Tree
   # Consumes one of the given character from the string and
   # returns the resulting string.
   def consume(str, char)
-    raise TreeFormatException.new("Expected '#{char}'") unless str[0] == char
+    raise AssertionError.new("Expected '#{char}'") unless str[0] == char
     return str[1..-1].strip
   end
 
@@ -95,7 +88,7 @@ class Tree
 
   # Creates the CFG string
   def to_cfg_string
-    lhs() + " -> " + rhs() 
+    lhs() + " -> " + rhs()
   end
 
   def get_all_trees
@@ -118,7 +111,7 @@ class Tree
       end.flatten
     else
       # We are a part of speech tag
-      return [@head]      
+      return [@head]
     end
   end
 
