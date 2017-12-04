@@ -6,6 +6,19 @@ require_relative 'cyk'
 
 require 'ruby-prof'
 
+def fail(reason); $stderr.puts reason; exit(1) end
+
+MODES = {
+  "HTML" => :html,
+  "DOT" => :dot
+}
+
+if ARGV.length != 1 || !MODES.has_key?(ARGV[0].upcase)
+  fail("usage: #{$0} #{MODES.keys.join("|")}")
+end
+
+mode = MODES[ARGV[0].upcase]
+
 TRAINING_FILENAME = 'data/f2-21.train.parse.noLEX'
 TEST_FILENAME = 'data/f2-21.test.parse.noLEX'
 
@@ -33,5 +46,11 @@ result = RubyProf.profile do
   end
 end
 
-printer = RubyProf::GraphHtmlPrinter.new(result)
-printer.print(STDOUT, :min_percent => 0)
+case mode
+when :dot
+  RubyProf::DotPrinter.new(result).print(STDOUT)
+when :html
+  RubyProf::GraphHtmlPrinter.new(result).print(STDOUT, :min_percent => 0)
+else
+  fail("Unexpected mode: #{mode}")
+end

@@ -1,0 +1,4828 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <style media="all" type="text/css">
+    table {
+      border-collapse: collapse;
+      border: 1px solid #CCC;
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+      font-size: 9pt;
+      line-height: normal;
+      width: 100%;
+    }
+
+    th {
+      text-align: center;
+      border-top: 1px solid #FB7A31;
+      border-bottom: 1px solid #FB7A31;
+      background: #FFC;
+      padding: 0.3em;
+      border-left: 1px solid silver;
+    }
+
+    tr.break td {
+      border: 0;
+      border-top: 1px solid #FB7A31;
+      padding: 0;
+      margin: 0;
+    }
+
+    tr.method td {
+      font-weight: bold;
+    }
+
+    td {
+      padding: 0.3em;
+    }
+
+    td:first-child {
+      width: 190px;
+      }
+
+    td {
+      border-left: 1px solid #CCC;
+      text-align: center;
+    }
+
+    .method_name {
+      text-align: left;
+    }
+
+    tfoot td {
+      text-align: left;
+    }
+  </style>
+  </head>
+  <body>
+    <h1>Profile Report: wall_time</h1>
+    <!-- Threads Table -->
+    <table>
+      <tr>
+        <th>Thread ID</th>
+        <th>Fiber ID</th>
+        <th>Total Time</th>
+      </tr>
+
+      <tr>
+        <td>70270174099580</td>
+        <td><a href="#70270174014000">70270174014000</a></td>
+        <td>43.11295700073242</td>
+      </tr>
+
+    </table>
+    <!-- Methods Tables -->
+
+      <h2><a name="70270174014000">Thread 70270174099580, Fiber: 70270174014000</a></h2>
+      <table>
+        <thead>
+          <tr>
+            <th>%Total</th>
+            <th>%Self</th>
+            <th>Total</th>
+            <th>Self</th>
+            <th>Wait</th>
+            <th>Child</th>
+            <th>Calls</th>
+            <th class="method_name">Name</th>
+            <th>Line</th>
+          </tr>
+        </thead>
+        <tbody>
+
+               <!-- Parents -->
+
+               <tr class="method">
+                 <td>100.00%</td>
+                 <td>0.00%</td>
+                 <td>43.11</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>43.11</td>
+                 <td>1</td>
+                 <td class="method_name">
+                   <a name="Global_[No method]_70270174014000">
+                      Global#[No method]
+                   </a>
+                 </td>
+                 <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/prof.rb&line=38" title="/Users/tim/code/cyk-parser/prof.rb:38">38</a></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>41.13</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>41.13</td>
+                   <td>1/226293</td>
+                   <td class="method_name"><a href="#Array_each_70270174014000">Array#each</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/prof.rb&line=42" title="/Users/tim/code/cyk-parser/prof.rb:42">42</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>1.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1.00</td>
+                   <td>2/2</td>
+                   <td class="method_name"><a href="#Object_read_trees_70270174014000">Object#read_trees</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/prof.rb&line=39" title="/Users/tim/code/cyk-parser/prof.rb:39">39</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.98</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.98</td>
+                   <td>1/64977</td>
+                   <td class="method_name"><a href="#Class_new_70270174014000">Class#new</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/prof.rb&line=40" title="/Users/tim/code/cyk-parser/prof.rb:40">40</a></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.12</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.12</td>
+                   <td>24358/226293</td>
+                   <td class="method_name"><a href="#Tree_left_factor!_70270174014000">Tree#left_factor!</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=79" title="/Users/tim/code/cyk-parser/tree.rb:79">79</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.12</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.12</td>
+                   <td>1/226293</td>
+                   <td class="method_name"><a href="#CYKParser_left_factor_70270174014000">CYKParser#left_factor</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=109" title="/Users/tim/code/cyk-parser/cyk.rb:109">109</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.12</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.12</td>
+                   <td>24358/226293</td>
+                   <td class="method_name"><a href="#Tree_get_all_trees_70270174014000">Tree#get_all_trees</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=97" title="/Users/tim/code/cyk-parser/tree.rb:97">97</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.13</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.13</td>
+                   <td>1/226293</td>
+                   <td class="method_name"><a href="#CYKParser_extract_rules_70270174014000">CYKParser#extract_rules</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=125" title="/Users/tim/code/cyk-parser/cyk.rb:125">125</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.44</td>
+                   <td>0.08</td>
+                   <td>0.00</td>
+                   <td>0.35</td>
+                   <td>1/226293</td>
+                   <td class="method_name"><a href="#CYKParser_compute_probabilities_70270174014000">CYKParser#compute_probabilities</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=139" title="/Users/tim/code/cyk-parser/cyk.rb:139">139</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>37.57</td>
+                   <td>25.72</td>
+                   <td>0.00</td>
+                   <td>11.85</td>
+                   <td>177573/226293</td>
+                   <td class="method_name"><a href="#Enumerable_each_with_index_70270174014000">Enumerable#each_with_index</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>41.13</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>41.13</td>
+                   <td>1/226293</td>
+                   <td class="method_name"><a href="#Global_[No method]_70270174014000">Global#[No method]</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/prof.rb&line=42" title="/Users/tim/code/cyk-parser/prof.rb:42">42</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>97.00%</td>
+                 <td>0.20%</td>
+                 <td>41.82</td>
+                 <td>0.09</td>
+                 <td>0.00</td>
+                 <td>41.73</td>
+                 <td>226293</td>
+                 <td class="method_name">
+                   <a name="Array_each_70270174014000">
+                     *Array#each
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>41.12</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>41.12</td>
+                   <td>10/10</td>
+                   <td class="method_name"><a href="#CYKParser_parse_70270174014000">CYKParser#parse</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>11.45</td>
+                   <td>11.45</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>59323815/61745453</td>
+                   <td class="method_name"><a href="#NilClass_nil__70270174014000">NilClass#nil?</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.26</td>
+                   <td>0.26</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1225733/1516855</td>
+                   <td class="method_name"><a href="#Kernel_nil__70270174014000">Kernel#nil?</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.20</td>
+                   <td>0.06</td>
+                   <td>0.00</td>
+                   <td>0.14</td>
+                   <td>48716/48716</td>
+                   <td class="method_name"><a href="#Tree_rhs_70270174014000">Tree#rhs</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.13</td>
+                   <td>0.13</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>223789/223789</td>
+                   <td class="method_name"><a href="#Array3D_[]__70270174014000">Array3D#[]=</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.13</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.12</td>
+                   <td>48716/48716</td>
+                   <td class="method_name"><a href="#Tree_get_all_trees_70270174014000">Tree#get_all_trees</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.12</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.12</td>
+                   <td>48716/48716</td>
+                   <td class="method_name"><a href="#Tree_left_factor!_70270174014000">Tree#left_factor!</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.08</td>
+                   <td>0.05</td>
+                   <td>0.00</td>
+                   <td>0.02</td>
+                   <td>48716/55178</td>
+                   <td class="method_name"><a href="#Array_hash_70270174014000">Array#hash</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.05</td>
+                   <td>0.03</td>
+                   <td>0.00</td>
+                   <td>0.02</td>
+                   <td>42230/45461</td>
+                   <td class="method_name"><a href="#Array_eql__70270174014000">Array#eql?</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.02</td>
+                   <td>0.02</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>73074/184682</td>
+                   <td class="method_name"><a href="#Tree_lhs_70270174014000">Tree#lhs</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>10/472</td>
+                   <td class="method_name"><a href="#Tree_unfactor_70270174014000">Tree#unfactor</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>10/49115</td>
+                   <td class="method_name"><a href="#Tree_get_leaves_70270174014000">Tree#get_leaves</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1161/1161</td>
+                   <td class="method_name"><a href="#BasicObject_!__70270174014000">BasicObject#!=</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1229/27647</td>
+                   <td class="method_name"><a href="#Array_include__70270174014000">Array#include?</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1000/1000</td>
+                   <td class="method_name"><a href="#Array_[]__70270174014000">Array#[]=</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1229/1701</td>
+                   <td class="method_name"><a href="#String_index_70270174014000">String#index</a></td>
+                   <td></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>41.12</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>41.12</td>
+                   <td>10/10</td>
+                   <td class="method_name"><a href="#Array_each_70270174014000">Array#each</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>95.38%</td>
+                 <td>0.00%</td>
+                 <td>41.12</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>41.12</td>
+                 <td>10</td>
+                 <td class="method_name">
+                   <a name="CYKParser_parse_70270174014000">
+                      CYKParser#parse
+                   </a>
+                 </td>
+                 <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=182" title="/Users/tim/code/cyk-parser/cyk.rb:182">182</a></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>41.09</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>41.09</td>
+                   <td>20/3501</td>
+                   <td class="method_name"><a href="#Range_each_70270174014000">Range#each</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=234" title="/Users/tim/code/cyk-parser/cyk.rb:234">234</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.02</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.02</td>
+                   <td>30/64977</td>
+                   <td class="method_name"><a href="#Class_new_70270174014000">Class#new</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=251" title="/Users/tim/code/cyk-parser/cyk.rb:251">251</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>10/462</td>
+                   <td class="method_name"><a href="#CYKParser_build_tree_70270174014000">CYKParser#build_tree</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=247" title="/Users/tim/code/cyk-parser/cyk.rb:247">247</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>10/177573</td>
+                   <td class="method_name"><a href="#Enumerable_each_with_index_70270174014000">Enumerable#each_with_index</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=193" title="/Users/tim/code/cyk-parser/cyk.rb:193">193</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>10/10</td>
+                   <td class="method_name"><a href="#CYKParser_check_tags_70270174014000">CYKParser#check_tags</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=191" title="/Users/tim/code/cyk-parser/cyk.rb:191">191</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>10/12</td>
+                   <td class="method_name"><a href="#Array_map_70270174014000">Array#map</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=190" title="/Users/tim/code/cyk-parser/cyk.rb:190">190</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>10/10</td>
+                   <td class="method_name"><a href="#Float_-@_70270174014000">Float#-@</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=233" title="/Users/tim/code/cyk-parser/cyk.rb:233">233</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>10/10</td>
+                   <td class="method_name"><a href="#Array3D_get_table_70270174014000">Array3D#get_table</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=186" title="/Users/tim/code/cyk-parser/cyk.rb:186">186</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>20/1516855</td>
+                   <td class="method_name"><a href="#Kernel_nil__70270174014000">Kernel#nil?</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=248" title="/Users/tim/code/cyk-parser/cyk.rb:248">248</a></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>41.05</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>41.04</td>
+                   <td>3481/3501</td>
+                   <td class="method_name"><a href="#Range_each_70270174014000">Range#each</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>41.09</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>41.09</td>
+                   <td>20/3501</td>
+                   <td class="method_name"><a href="#CYKParser_parse_70270174014000">CYKParser#parse</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=234" title="/Users/tim/code/cyk-parser/cyk.rb:234">234</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>95.32%</td>
+                 <td>0.02%</td>
+                 <td>41.09</td>
+                 <td>0.01</td>
+                 <td>0.00</td>
+                 <td>41.09</td>
+                 <td>3501</td>
+                 <td class="method_name">
+                   <a name="Range_each_70270174014000">
+                     *Range#each
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>41.05</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>41.04</td>
+                   <td>3481/3501</td>
+                   <td class="method_name"><a href="#Range_each_70270174014000">Range#each</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>41.02</td>
+                   <td>0.34</td>
+                   <td>0.00</td>
+                   <td>40.68</td>
+                   <td>37011/123820</td>
+                   <td class="method_name"><a href="#Hash_each_70270174014000">Hash#each</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.04</td>
+                   <td>0.04</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2060/27647</td>
+                   <td class="method_name"><a href="#Array_include__70270174014000">Array#include?</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>10240/61745453</td>
+                   <td class="method_name"><a href="#NilClass_nil__70270174014000">NilClass#nil?</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2060/1516855</td>
+                   <td class="method_name"><a href="#Kernel_nil__70270174014000">Kernel#nil?</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>10/10</td>
+                   <td class="method_name"><a href="#Float___70270174014000">Float#&gt;</a></td>
+                   <td></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>40.66</td>
+                   <td>2.43</td>
+                   <td>0.00</td>
+                   <td>38.24</td>
+                   <td>86809/123820</td>
+                   <td class="method_name"><a href="#Hash_each_70270174014000">Hash#each</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>41.02</td>
+                   <td>0.34</td>
+                   <td>0.00</td>
+                   <td>40.68</td>
+                   <td>37011/123820</td>
+                   <td class="method_name"><a href="#Range_each_70270174014000">Range#each</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>95.14%</td>
+                 <td>0.78%</td>
+                 <td>41.02</td>
+                 <td>0.34</td>
+                 <td>0.00</td>
+                 <td>40.68</td>
+                 <td>123820</td>
+                 <td class="method_name">
+                   <a name="Hash_each_70270174014000">
+                     *Hash#each
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>40.66</td>
+                   <td>2.43</td>
+                   <td>0.00</td>
+                   <td>38.24</td>
+                   <td>86809/123820</td>
+                   <td class="method_name"><a href="#Hash_each_70270174014000">Hash#each</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>37.70</td>
+                   <td>0.14</td>
+                   <td>0.00</td>
+                   <td>37.56</td>
+                   <td>177562/177573</td>
+                   <td class="method_name"><a href="#Enumerable_each_with_index_70270174014000">Enumerable#each_with_index</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.49</td>
+                   <td>0.49</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2411001/61745453</td>
+                   <td class="method_name"><a href="#NilClass_nil__70270174014000">NilClass#nil?</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.06</td>
+                   <td>0.06</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>264371/1516855</td>
+                   <td class="method_name"><a href="#Kernel_nil__70270174014000">Kernel#nil?</a></td>
+                   <td></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>10/177573</td>
+                   <td class="method_name"><a href="#CYKParser_parse_70270174014000">CYKParser#parse</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=193" title="/Users/tim/code/cyk-parser/cyk.rb:193">193</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.01</td>
+                   <td>1/177573</td>
+                   <td class="method_name"><a href="#CYKParser_compute_probabilities_70270174014000">CYKParser#compute_probabilities</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=146" title="/Users/tim/code/cyk-parser/cyk.rb:146">146</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>37.70</td>
+                   <td>0.14</td>
+                   <td>0.00</td>
+                   <td>37.56</td>
+                   <td>177562/177573</td>
+                   <td class="method_name"><a href="#Hash_each_70270174014000">Hash#each</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>87.46%</td>
+                 <td>0.32%</td>
+                 <td>37.71</td>
+                 <td>0.14</td>
+                 <td>0.00</td>
+                 <td>37.57</td>
+                 <td>177573</td>
+                 <td class="method_name">
+                   <a name="Enumerable_each_with_index_70270174014000">
+                      Enumerable#each_with_index
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>37.57</td>
+                   <td>25.72</td>
+                   <td>0.00</td>
+                   <td>11.85</td>
+                   <td>177573/226293</td>
+                   <td class="method_name"><a href="#Array_each_70270174014000">Array#each</a></td>
+                   <td></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>397/61745453</td>
+                   <td class="method_name"><a href="#Tree_am_i_real__70270174014000">Tree#am_i_real?</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=52" title="/Users/tim/code/cyk-parser/tree.rb:52">52</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>10240/61745453</td>
+                   <td class="method_name"><a href="#Range_each_70270174014000">Range#each</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.49</td>
+                   <td>0.49</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2411001/61745453</td>
+                   <td class="method_name"><a href="#Hash_each_70270174014000">Hash#each</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>11.45</td>
+                   <td>11.45</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>59323815/61745453</td>
+                   <td class="method_name"><a href="#Array_each_70270174014000">Array#each</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>27.70%</td>
+                 <td>27.70%</td>
+                 <td>11.94</td>
+                 <td>11.94</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>61745453</td>
+                 <td class="method_name">
+                   <a name="NilClass_nil__70270174014000">
+                      NilClass#nil?
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>3/64977</td>
+                   <td class="method_name"><a href="#CYKParser_initialize_70270174014000">CYKParser#initialize</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=94" title="/Users/tim/code/cyk-parser/cyk.rb:94">94</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/64977</td>
+                   <td class="method_name"><a href="#CYKParser_extract_rules_70270174014000">CYKParser#extract_rules</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=123" title="/Users/tim/code/cyk-parser/cyk.rb:123">123</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>20/64977</td>
+                   <td class="method_name"><a href="#Array3D_initialize_70270174014000">Array3D#initialize</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=28" title="/Users/tim/code/cyk-parser/cyk.rb:28">28</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>397/64977</td>
+                   <td class="method_name"><a href="#Tree_unfactor_70270174014000">Tree#unfactor</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=58" title="/Users/tim/code/cyk-parser/tree.rb:58">58</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>462/64977</td>
+                   <td class="method_name"><a href="#CYKParser_build_tree_70270174014000">CYKParser#build_tree</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=260" title="/Users/tim/code/cyk-parser/cyk.rb:260">260</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1010/64977</td>
+                   <td class="method_name"><a href="#_Class__Tree__from_string_70270174014000">&lt;Class::Tree&gt;#from_string</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=8" title="/Users/tim/code/cyk-parser/tree.rb:8">8</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.01</td>
+                   <td>8088/64977</td>
+                   <td class="method_name"><a href="#Tree_left_factor!_70270174014000">Tree#left_factor!</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=72" title="/Users/tim/code/cyk-parser/tree.rb:72">72</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.01</td>
+                   <td>14948/64977</td>
+                   <td class="method_name"><a href="#Integer_times_70270174014000">Integer#times</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.02</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.02</td>
+                   <td>30/64977</td>
+                   <td class="method_name"><a href="#CYKParser_parse_70270174014000">CYKParser#parse</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=251" title="/Users/tim/code/cyk-parser/cyk.rb:251">251</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.04</td>
+                   <td>0.02</td>
+                   <td>0.00</td>
+                   <td>0.02</td>
+                   <td>40017/64977</td>
+                   <td class="method_name"><a href="#Tree_configure_70270174014000">Tree#configure</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=129" title="/Users/tim/code/cyk-parser/tree.rb:129">129</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.98</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.98</td>
+                   <td>1/64977</td>
+                   <td class="method_name"><a href="#Global_[No method]_70270174014000">Global#[No method]</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/prof.rb&line=40" title="/Users/tim/code/cyk-parser/prof.rb:40">40</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>2.44%</td>
+                 <td>0.06%</td>
+                 <td>1.05</td>
+                 <td>0.02</td>
+                 <td>0.00</td>
+                 <td>1.03</td>
+                 <td>64977</td>
+                 <td class="method_name">
+                   <a name="Class_new_70270174014000">
+                     *Class#new
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.98</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.98</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#CYKParser_initialize_70270174014000">CYKParser#initialize</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.03</td>
+                   <td>0.03</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>49984/49984</td>
+                   <td class="method_name"><a href="#Tree_initialize_70270174014000">Tree#initialize</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.02</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.02</td>
+                   <td>20/20</td>
+                   <td class="method_name"><a href="#Array3D_initialize_70270174014000">Array3D#initialize</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>14971/14971</td>
+                   <td class="method_name"><a href="#Hash_initialize_70270174014000">Hash#initialize</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#Array_initialize_70270174014000">Array#initialize</a></td>
+                   <td></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>1.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1.00</td>
+                   <td>2/2</td>
+                   <td class="method_name"><a href="#Global_[No method]_70270174014000">Global#[No method]</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/prof.rb&line=39" title="/Users/tim/code/cyk-parser/prof.rb:39">39</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>2.33%</td>
+                 <td>0.00%</td>
+                 <td>1.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>1.00</td>
+                 <td>2</td>
+                 <td class="method_name">
+                   <a name="Object_read_trees_70270174014000">
+                      Object#read_trees
+                   </a>
+                 </td>
+                 <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/prof.rb&line=26" title="/Users/tim/code/cyk-parser/prof.rb:26">26</a></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>1.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1.00</td>
+                   <td>2/2</td>
+                   <td class="method_name"><a href="#_Class__IO__open_70270174014000">&lt;Class::IO&gt;#open</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/prof.rb&line=28" title="/Users/tim/code/cyk-parser/prof.rb:28">28</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2/6</td>
+                   <td class="method_name"><a href="#Object_log_70270174014000">Object#log</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/prof.rb&line=27" title="/Users/tim/code/cyk-parser/prof.rb:27">27</a></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>1.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1.00</td>
+                   <td>2/2</td>
+                   <td class="method_name"><a href="#Object_read_trees_70270174014000">Object#read_trees</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/prof.rb&line=28" title="/Users/tim/code/cyk-parser/prof.rb:28">28</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>2.33%</td>
+                 <td>0.00%</td>
+                 <td>1.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>1.00</td>
+                 <td>2</td>
+                 <td class="method_name">
+                   <a name="_Class__IO__open_70270174014000">
+                      &lt;Class::IO&gt;#open
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.97</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.97</td>
+                   <td>2/12</td>
+                   <td class="method_name"><a href="#Array_map_70270174014000">Array#map</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.03</td>
+                   <td>0.03</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2/2</td>
+                   <td class="method_name"><a href="#IO_readlines_70270174014000">IO#readlines</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2/2</td>
+                   <td class="method_name"><a href="#File_initialize_70270174014000">File#initialize</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2/2</td>
+                   <td class="method_name"><a href="#Array_take_70270174014000">Array#take</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2/2</td>
+                   <td class="method_name"><a href="#IO_close_70270174014000">IO#close</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2/1516855</td>
+                   <td class="method_name"><a href="#Kernel_nil__70270174014000">Kernel#nil?</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2/2</td>
+                   <td class="method_name"><a href="#IO_closed__70270174014000">IO#closed?</a></td>
+                   <td></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.98</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.98</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#Class_new_70270174014000">Class#new</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>2.28%</td>
+                 <td>0.00%</td>
+                 <td>0.98</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.98</td>
+                 <td>1</td>
+                 <td class="method_name">
+                   <a name="CYKParser_initialize_70270174014000">
+                      CYKParser#initialize
+                   </a>
+                 </td>
+                 <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=79" title="/Users/tim/code/cyk-parser/cyk.rb:79">79</a></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.50</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.50</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#CYKParser_compute_probabilities_70270174014000">CYKParser#compute_probabilities</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=104" title="/Users/tim/code/cyk-parser/cyk.rb:104">104</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.18</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.18</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#CYKParser_extract_rules_70270174014000">CYKParser#extract_rules</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=103" title="/Users/tim/code/cyk-parser/cyk.rb:103">103</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.18</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.18</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#CYKParser_determine_parts_of_speech_70270174014000">CYKParser#determine_parts_of_speech</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=102" title="/Users/tim/code/cyk-parser/cyk.rb:102">102</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.12</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.12</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#CYKParser_left_factor_70270174014000">CYKParser#left_factor</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=101" title="/Users/tim/code/cyk-parser/cyk.rb:101">101</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>3/64977</td>
+                   <td class="method_name"><a href="#Class_new_70270174014000">Class#new</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=94" title="/Users/tim/code/cyk-parser/cyk.rb:94">94</a></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>10/12</td>
+                   <td class="method_name"><a href="#CYKParser_parse_70270174014000">CYKParser#parse</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=190" title="/Users/tim/code/cyk-parser/cyk.rb:190">190</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.97</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.97</td>
+                   <td>2/12</td>
+                   <td class="method_name"><a href="#_Class__IO__open_70270174014000">&lt;Class::IO&gt;#open</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>2.25%</td>
+                 <td>0.00%</td>
+                 <td>0.97</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.97</td>
+                 <td>12</td>
+                 <td class="method_name">
+                   <a name="Array_map_70270174014000">
+                      Array#map
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.97</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.97</td>
+                   <td>1010/1010</td>
+                   <td class="method_name"><a href="#_Class__Tree__from_string_70270174014000">&lt;Class::Tree&gt;#from_string</a></td>
+                   <td></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.97</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.97</td>
+                   <td>1010/1010</td>
+                   <td class="method_name"><a href="#Array_map_70270174014000">Array#map</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>2.25%</td>
+                 <td>0.00%</td>
+                 <td>0.97</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.97</td>
+                 <td>1010</td>
+                 <td class="method_name">
+                   <a name="_Class__Tree__from_string_70270174014000">
+                      &lt;Class::Tree&gt;#from_string
+                   </a>
+                 </td>
+                 <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=7" title="/Users/tim/code/cyk-parser/tree.rb:7">7</a></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.97</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.96</td>
+                   <td>1010/41027</td>
+                   <td class="method_name"><a href="#Tree_configure_70270174014000">Tree#configure</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=9" title="/Users/tim/code/cyk-parser/tree.rb:9">9</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1010/64977</td>
+                   <td class="method_name"><a href="#Class_new_70270174014000">Class#new</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=8" title="/Users/tim/code/cyk-parser/tree.rb:8">8</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1010/1010</td>
+                   <td class="method_name"><a href="#String_chomp_70270174014000">String#chomp</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=9" title="/Users/tim/code/cyk-parser/tree.rb:9">9</a></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.95</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.94</td>
+                   <td>40017/41027</td>
+                   <td class="method_name"><a href="#Tree_configure_70270174014000">Tree#configure</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=130" title="/Users/tim/code/cyk-parser/tree.rb:130">130</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.97</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.96</td>
+                   <td>1010/41027</td>
+                   <td class="method_name"><a href="#_Class__Tree__from_string_70270174014000">&lt;Class::Tree&gt;#from_string</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=9" title="/Users/tim/code/cyk-parser/tree.rb:9">9</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>2.24%</td>
+                 <td>0.02%</td>
+                 <td>0.97</td>
+                 <td>0.01</td>
+                 <td>0.00</td>
+                 <td>0.96</td>
+                 <td>41027</td>
+                 <td class="method_name">
+                   <a name="Tree_configure_70270174014000">
+                     *Tree#configure
+                   </a>
+                 </td>
+                 <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=117" title="/Users/tim/code/cyk-parser/tree.rb:117">117</a></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.95</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.94</td>
+                   <td>40017/41027</td>
+                   <td class="method_name"><a href="#Tree_configure_70270174014000">Tree#configure</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=130" title="/Users/tim/code/cyk-parser/tree.rb:130">130</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.31</td>
+                   <td>0.31</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>743808/907916</td>
+                   <td class="method_name"><a href="#String_[]_70270174014000">String#[]</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=128" title="/Users/tim/code/cyk-parser/tree.rb:128">128</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.20</td>
+                   <td>0.08</td>
+                   <td>0.00</td>
+                   <td>0.11</td>
+                   <td>82054/82054</td>
+                   <td class="method_name"><a href="#Tree_consume_70270174014000">Tree#consume</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=141" title="/Users/tim/code/cyk-parser/tree.rb:141">141</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.04</td>
+                   <td>0.02</td>
+                   <td>0.00</td>
+                   <td>0.02</td>
+                   <td>40017/64977</td>
+                   <td class="method_name"><a href="#Class_new_70270174014000">Class#new</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=129" title="/Users/tim/code/cyk-parser/tree.rb:129">129</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.02</td>
+                   <td>0.02</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>41027/41027</td>
+                   <td class="method_name"><a href="#String_strip!_70270174014000">String#strip!</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=125" title="/Users/tim/code/cyk-parser/tree.rb:125">125</a></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.50</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.50</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#CYKParser_initialize_70270174014000">CYKParser#initialize</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=104" title="/Users/tim/code/cyk-parser/cyk.rb:104">104</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>1.16%</td>
+                 <td>0.00%</td>
+                 <td>0.50</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.50</td>
+                 <td>1</td>
+                 <td class="method_name">
+                   <a name="CYKParser_compute_probabilities_70270174014000">
+                      CYKParser#compute_probabilities
+                   </a>
+                 </td>
+                 <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=136" title="/Users/tim/code/cyk-parser/cyk.rb:136">136</a></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.44</td>
+                   <td>0.08</td>
+                   <td>0.00</td>
+                   <td>0.35</td>
+                   <td>1/226293</td>
+                   <td class="method_name"><a href="#Array_each_70270174014000">Array#each</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=139" title="/Users/tim/code/cyk-parser/cyk.rb:139">139</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.06</td>
+                   <td>0.03</td>
+                   <td>0.00</td>
+                   <td>0.03</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#Hash_each_key_70270174014000">Hash#each_key</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=153" title="/Users/tim/code/cyk-parser/cyk.rb:153">153</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.01</td>
+                   <td>1/177573</td>
+                   <td class="method_name"><a href="#Enumerable_each_with_index_70270174014000">Enumerable#each_with_index</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=146" title="/Users/tim/code/cyk-parser/cyk.rb:146">146</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#Hash_keys_70270174014000">Hash#keys</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=145" title="/Users/tim/code/cyk-parser/cyk.rb:145">145</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/6</td>
+                   <td class="method_name"><a href="#Object_log_70270174014000">Object#log</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=137" title="/Users/tim/code/cyk-parser/cyk.rb:137">137</a></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.08</td>
+                   <td>0.08</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>164108/907916</td>
+                   <td class="method_name"><a href="#Tree_consume_70270174014000">Tree#consume</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=30" title="/Users/tim/code/cyk-parser/tree.rb:30">30</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.31</td>
+                   <td>0.31</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>743808/907916</td>
+                   <td class="method_name"><a href="#Tree_configure_70270174014000">Tree#configure</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=128" title="/Users/tim/code/cyk-parser/tree.rb:128">128</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.88%</td>
+                 <td>0.88%</td>
+                 <td>0.38</td>
+                 <td>0.38</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>907916</td>
+                 <td class="method_name">
+                   <a name="String_[]_70270174014000">
+                      String#[]
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2/1516855</td>
+                   <td class="method_name"><a href="#_Class__IO__open_70270174014000">&lt;Class::IO&gt;#open</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>20/1516855</td>
+                   <td class="method_name"><a href="#CYKParser_parse_70270174014000">CYKParser#parse</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=248" title="/Users/tim/code/cyk-parser/cyk.rb:248">248</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>75/1516855</td>
+                   <td class="method_name"><a href="#Tree_am_i_real__70270174014000">Tree#am_i_real?</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=52" title="/Users/tim/code/cyk-parser/tree.rb:52">52</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>236/1516855</td>
+                   <td class="method_name"><a href="#Array_any__70270174014000">Array#any?</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2060/1516855</td>
+                   <td class="method_name"><a href="#Range_each_70270174014000">Range#each</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>24358/1516855</td>
+                   <td class="method_name"><a href="#Array_select_70270174014000">Array#select</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.06</td>
+                   <td>0.06</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>264371/1516855</td>
+                   <td class="method_name"><a href="#Hash_each_70270174014000">Hash#each</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.26</td>
+                   <td>0.26</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1225733/1516855</td>
+                   <td class="method_name"><a href="#Array_each_70270174014000">Array#each</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.77%</td>
+                 <td>0.77%</td>
+                 <td>0.33</td>
+                 <td>0.33</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>1516855</td>
+                 <td class="method_name">
+                   <a name="Kernel_nil__70270174014000">
+                      Kernel#nil?
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>236/73474</td>
+                   <td class="method_name"><a href="#Tree_unfactor_70270174014000">Tree#unfactor</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=56" title="/Users/tim/code/cyk-parser/tree.rb:56">56</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.09</td>
+                   <td>0.06</td>
+                   <td>0.00</td>
+                   <td>0.03</td>
+                   <td>48716/73474</td>
+                   <td class="method_name"><a href="#Tree_rhs_70270174014000">Tree#rhs</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=41" title="/Users/tim/code/cyk-parser/tree.rb:41">41</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.16</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.16</td>
+                   <td>24521/73474</td>
+                   <td class="method_name"><a href="#Tree_get_leaves_70270174014000">Tree#get_leaves</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=109" title="/Users/tim/code/cyk-parser/tree.rb:109">109</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.17</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.17</td>
+                   <td>1/73474</td>
+                   <td class="method_name"><a href="#CYKParser_determine_parts_of_speech_70270174014000">CYKParser#determine_parts_of_speech</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=116" title="/Users/tim/code/cyk-parser/cyk.rb:116">116</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.61%</td>
+                 <td>0.14%</td>
+                 <td>0.26</td>
+                 <td>0.06</td>
+                 <td>0.00</td>
+                 <td>0.20</td>
+                 <td>73474</td>
+                 <td class="method_name">
+                   <a name="Array_collect_70270174014000">
+                     *Array#collect
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.17</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.17</td>
+                   <td>49105/49115</td>
+                   <td class="method_name"><a href="#Tree_get_leaves_70270174014000">Tree#get_leaves</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.03</td>
+                   <td>0.03</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>95432/184682</td>
+                   <td class="method_name"><a href="#Tree_lhs_70270174014000">Tree#lhs</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>462/472</td>
+                   <td class="method_name"><a href="#Tree_unfactor_70270174014000">Tree#unfactor</a></td>
+                   <td></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.20</td>
+                   <td>0.06</td>
+                   <td>0.00</td>
+                   <td>0.14</td>
+                   <td>48716/48716</td>
+                   <td class="method_name"><a href="#Array_each_70270174014000">Array#each</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.46%</td>
+                 <td>0.13%</td>
+                 <td>0.20</td>
+                 <td>0.06</td>
+                 <td>0.00</td>
+                 <td>0.14</td>
+                 <td>48716</td>
+                 <td class="method_name">
+                   <a name="Tree_rhs_70270174014000">
+                      Tree#rhs
+                   </a>
+                 </td>
+                 <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=39" title="/Users/tim/code/cyk-parser/tree.rb:39">39</a></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.09</td>
+                   <td>0.06</td>
+                   <td>0.00</td>
+                   <td>0.03</td>
+                   <td>48716/73474</td>
+                   <td class="method_name"><a href="#Array_collect_70270174014000">Array#collect</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=41" title="/Users/tim/code/cyk-parser/tree.rb:41">41</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.04</td>
+                   <td>0.04</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>48716/48716</td>
+                   <td class="method_name"><a href="#Array_join_70270174014000">Array#join</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=41" title="/Users/tim/code/cyk-parser/tree.rb:41">41</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>48716/195735</td>
+                   <td class="method_name"><a href="#Kernel_is_a__70270174014000">Kernel#is_a?</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=40" title="/Users/tim/code/cyk-parser/tree.rb:40">40</a></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.20</td>
+                   <td>0.08</td>
+                   <td>0.00</td>
+                   <td>0.11</td>
+                   <td>82054/82054</td>
+                   <td class="method_name"><a href="#Tree_configure_70270174014000">Tree#configure</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=141" title="/Users/tim/code/cyk-parser/tree.rb:141">141</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.46%</td>
+                 <td>0.19%</td>
+                 <td>0.20</td>
+                 <td>0.08</td>
+                 <td>0.00</td>
+                 <td>0.11</td>
+                 <td>82054</td>
+                 <td class="method_name">
+                   <a name="Tree_consume_70270174014000">
+                      Tree#consume
+                   </a>
+                 </td>
+                 <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=28" title="/Users/tim/code/cyk-parser/tree.rb:28">28</a></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.08</td>
+                   <td>0.08</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>164108/907916</td>
+                   <td class="method_name"><a href="#String_[]_70270174014000">String#[]</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=30" title="/Users/tim/code/cyk-parser/tree.rb:30">30</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.04</td>
+                   <td>0.04</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>82054/82054</td>
+                   <td class="method_name"><a href="#String_strip_70270174014000">String#strip</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=30" title="/Users/tim/code/cyk-parser/tree.rb:30">30</a></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.18</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.18</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#CYKParser_initialize_70270174014000">CYKParser#initialize</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=103" title="/Users/tim/code/cyk-parser/cyk.rb:103">103</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.42%</td>
+                 <td>0.00%</td>
+                 <td>0.18</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.18</td>
+                 <td>1</td>
+                 <td class="method_name">
+                   <a name="CYKParser_extract_rules_70270174014000">
+                      CYKParser#extract_rules
+                   </a>
+                 </td>
+                 <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=121" title="/Users/tim/code/cyk-parser/cyk.rb:121">121</a></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.13</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.13</td>
+                   <td>1/226293</td>
+                   <td class="method_name"><a href="#Array_each_70270174014000">Array#each</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=125" title="/Users/tim/code/cyk-parser/cyk.rb:125">125</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.05</td>
+                   <td>0.02</td>
+                   <td>0.00</td>
+                   <td>0.03</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#Array_select_70270174014000">Array#select</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=131" title="/Users/tim/code/cyk-parser/cyk.rb:131">131</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/64977</td>
+                   <td class="method_name"><a href="#Class_new_70270174014000">Class#new</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=123" title="/Users/tim/code/cyk-parser/cyk.rb:123">123</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/6</td>
+                   <td class="method_name"><a href="#Object_log_70270174014000">Object#log</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=122" title="/Users/tim/code/cyk-parser/cyk.rb:122">122</a></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.18</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.18</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#CYKParser_initialize_70270174014000">CYKParser#initialize</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=102" title="/Users/tim/code/cyk-parser/cyk.rb:102">102</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.41%</td>
+                 <td>0.00%</td>
+                 <td>0.18</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.18</td>
+                 <td>1</td>
+                 <td class="method_name">
+                   <a name="CYKParser_determine_parts_of_speech_70270174014000">
+                      CYKParser#determine_parts_of_speech
+                   </a>
+                 </td>
+                 <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=114" title="/Users/tim/code/cyk-parser/cyk.rb:114">114</a></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.17</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.17</td>
+                   <td>1/73474</td>
+                   <td class="method_name"><a href="#Array_collect_70270174014000">Array#collect</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=116" title="/Users/tim/code/cyk-parser/cyk.rb:116">116</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/24758</td>
+                   <td class="method_name"><a href="#Array_flatten_70270174014000">Array#flatten</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=116" title="/Users/tim/code/cyk-parser/cyk.rb:116">116</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#Array_uniq_70270174014000">Array#uniq</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=116" title="/Users/tim/code/cyk-parser/cyk.rb:116">116</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/6</td>
+                   <td class="method_name"><a href="#Object_log_70270174014000">Object#log</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=115" title="/Users/tim/code/cyk-parser/cyk.rb:115">115</a></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>10/49115</td>
+                   <td class="method_name"><a href="#Array_each_70270174014000">Array#each</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.17</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.17</td>
+                   <td>49105/49115</td>
+                   <td class="method_name"><a href="#Array_collect_70270174014000">Array#collect</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.39%</td>
+                 <td>0.00%</td>
+                 <td>0.17</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.17</td>
+                 <td>49115</td>
+                 <td class="method_name">
+                   <a name="Tree_get_leaves_70270174014000">
+                     *Tree#get_leaves
+                   </a>
+                 </td>
+                 <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=105" title="/Users/tim/code/cyk-parser/tree.rb:105">105</a></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.16</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.16</td>
+                   <td>24521/73474</td>
+                   <td class="method_name"><a href="#Array_collect_70270174014000">Array#collect</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=109" title="/Users/tim/code/cyk-parser/tree.rb:109">109</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.07</td>
+                   <td>0.07</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>24521/24758</td>
+                   <td class="method_name"><a href="#Array_flatten_70270174014000">Array#flatten</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=109" title="/Users/tim/code/cyk-parser/tree.rb:109">109</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>49115/195735</td>
+                   <td class="method_name"><a href="#Kernel_is_a__70270174014000">Kernel#is_a?</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=106" title="/Users/tim/code/cyk-parser/tree.rb:106">106</a></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.13</td>
+                   <td>0.13</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>223789/223789</td>
+                   <td class="method_name"><a href="#Array_each_70270174014000">Array#each</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.31%</td>
+                 <td>0.31%</td>
+                 <td>0.13</td>
+                 <td>0.13</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>223789</td>
+                 <td class="method_name">
+                   <a name="Array3D_[]__70270174014000">
+                      Array3D#[]=
+                   </a>
+                 </td>
+                 <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=64" title="/Users/tim/code/cyk-parser/cyk.rb:64">64</a></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.13</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.12</td>
+                   <td>48716/48716</td>
+                   <td class="method_name"><a href="#Array_each_70270174014000">Array#each</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.29%</td>
+                 <td>0.00%</td>
+                 <td>0.13</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.12</td>
+                 <td>48716</td>
+                 <td class="method_name">
+                   <a name="Tree_get_all_trees_70270174014000">
+                     *Tree#get_all_trees
+                   </a>
+                 </td>
+                 <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=92" title="/Users/tim/code/cyk-parser/tree.rb:92">92</a></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.12</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.12</td>
+                   <td>24358/226293</td>
+                   <td class="method_name"><a href="#Array_each_70270174014000">Array#each</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=97" title="/Users/tim/code/cyk-parser/tree.rb:97">97</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>48716/195735</td>
+                   <td class="method_name"><a href="#Kernel_is_a__70270174014000">Kernel#is_a?</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=94" title="/Users/tim/code/cyk-parser/tree.rb:94">94</a></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.12</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.12</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#CYKParser_initialize_70270174014000">CYKParser#initialize</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=101" title="/Users/tim/code/cyk-parser/cyk.rb:101">101</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.28%</td>
+                 <td>0.00%</td>
+                 <td>0.12</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.12</td>
+                 <td>1</td>
+                 <td class="method_name">
+                   <a name="CYKParser_left_factor_70270174014000">
+                      CYKParser#left_factor
+                   </a>
+                 </td>
+                 <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=107" title="/Users/tim/code/cyk-parser/cyk.rb:107">107</a></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.12</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.12</td>
+                   <td>1/226293</td>
+                   <td class="method_name"><a href="#Array_each_70270174014000">Array#each</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=109" title="/Users/tim/code/cyk-parser/cyk.rb:109">109</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/6</td>
+                   <td class="method_name"><a href="#Object_log_70270174014000">Object#log</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=108" title="/Users/tim/code/cyk-parser/cyk.rb:108">108</a></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.12</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.12</td>
+                   <td>48716/48716</td>
+                   <td class="method_name"><a href="#Array_each_70270174014000">Array#each</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.28%</td>
+                 <td>0.00%</td>
+                 <td>0.12</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.12</td>
+                 <td>48716</td>
+                 <td class="method_name">
+                   <a name="Tree_left_factor!_70270174014000">
+                     *Tree#left_factor!
+                   </a>
+                 </td>
+                 <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=67" title="/Users/tim/code/cyk-parser/tree.rb:67">67</a></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.12</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.12</td>
+                   <td>24358/226293</td>
+                   <td class="method_name"><a href="#Array_each_70270174014000">Array#each</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=79" title="/Users/tim/code/cyk-parser/tree.rb:79">79</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.01</td>
+                   <td>8088/64977</td>
+                   <td class="method_name"><a href="#Class_new_70270174014000">Class#new</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=72" title="/Users/tim/code/cyk-parser/tree.rb:72">72</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>48716/195735</td>
+                   <td class="method_name"><a href="#Kernel_is_a__70270174014000">Kernel#is_a?</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=68" title="/Users/tim/code/cyk-parser/tree.rb:68">68</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>16176/184682</td>
+                   <td class="method_name"><a href="#Tree_lhs_70270174014000">Tree#lhs</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=74" title="/Users/tim/code/cyk-parser/tree.rb:74">74</a></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>6462/55178</td>
+                   <td class="method_name"><a href="#Hash_each_key_70270174014000">Hash#each_key</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.08</td>
+                   <td>0.05</td>
+                   <td>0.00</td>
+                   <td>0.02</td>
+                   <td>48716/55178</td>
+                   <td class="method_name"><a href="#Array_each_70270174014000">Array#each</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.21%</td>
+                 <td>0.14%</td>
+                 <td>0.09</td>
+                 <td>0.06</td>
+                 <td>0.00</td>
+                 <td>0.03</td>
+                 <td>55178</td>
+                 <td class="method_name">
+                   <a name="Array_hash_70270174014000">
+                      Array#hash
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.03</td>
+                   <td>0.03</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>110356/110356</td>
+                   <td class="method_name"><a href="#String_hash_70270174014000">String#hash</a></td>
+                   <td></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>236/24758</td>
+                   <td class="method_name"><a href="#Tree_unfactor_70270174014000">Tree#unfactor</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=56" title="/Users/tim/code/cyk-parser/tree.rb:56">56</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/24758</td>
+                   <td class="method_name"><a href="#CYKParser_determine_parts_of_speech_70270174014000">CYKParser#determine_parts_of_speech</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=116" title="/Users/tim/code/cyk-parser/cyk.rb:116">116</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.07</td>
+                   <td>0.07</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>24521/24758</td>
+                   <td class="method_name"><a href="#Tree_get_leaves_70270174014000">Tree#get_leaves</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=109" title="/Users/tim/code/cyk-parser/tree.rb:109">109</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.17%</td>
+                 <td>0.17%</td>
+                 <td>0.07</td>
+                 <td>0.07</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>24758</td>
+                 <td class="method_name">
+                   <a name="Array_flatten_70270174014000">
+                      Array#flatten
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1229/27647</td>
+                   <td class="method_name"><a href="#Array_each_70270174014000">Array#each</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.03</td>
+                   <td>0.03</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>24358/27647</td>
+                   <td class="method_name"><a href="#Array_select_70270174014000">Array#select</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.04</td>
+                   <td>0.04</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2060/27647</td>
+                   <td class="method_name"><a href="#Range_each_70270174014000">Range#each</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.15%</td>
+                 <td>0.15%</td>
+                 <td>0.07</td>
+                 <td>0.07</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>27647</td>
+                 <td class="method_name">
+                   <a name="Array_include__70270174014000">
+                      Array#include?
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>16176/184682</td>
+                   <td class="method_name"><a href="#Tree_left_factor!_70270174014000">Tree#left_factor!</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=74" title="/Users/tim/code/cyk-parser/tree.rb:74">74</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.02</td>
+                   <td>0.02</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>73074/184682</td>
+                   <td class="method_name"><a href="#Array_each_70270174014000">Array#each</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.03</td>
+                   <td>0.03</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>95432/184682</td>
+                   <td class="method_name"><a href="#Array_collect_70270174014000">Array#collect</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.14%</td>
+                 <td>0.14%</td>
+                 <td>0.06</td>
+                 <td>0.06</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>184682</td>
+                 <td class="method_name">
+                   <a name="Tree_lhs_70270174014000">
+                      Tree#lhs
+                   </a>
+                 </td>
+                 <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=34" title="/Users/tim/code/cyk-parser/tree.rb:34">34</a></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.06</td>
+                   <td>0.03</td>
+                   <td>0.00</td>
+                   <td>0.03</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#CYKParser_compute_probabilities_70270174014000">CYKParser#compute_probabilities</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=153" title="/Users/tim/code/cyk-parser/cyk.rb:153">153</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.14%</td>
+                 <td>0.06%</td>
+                 <td>0.06</td>
+                 <td>0.03</td>
+                 <td>0.00</td>
+                 <td>0.03</td>
+                 <td>1</td>
+                 <td class="method_name">
+                   <a name="Hash_each_key_70270174014000">
+                      Hash#each_key
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>6462/55178</td>
+                   <td class="method_name"><a href="#Array_hash_70270174014000">Array#hash</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>3231/3231</td>
+                   <td class="method_name"><a href="#String_split_70270174014000">String#split</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>3231/45461</td>
+                   <td class="method_name"><a href="#Array_eql__70270174014000">Array#eql?</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>3231/3231</td>
+                   <td class="method_name"><a href="#_Module__Math__log_70270174014000">&lt;Module::Math&gt;#log</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>3231/3231</td>
+                   <td class="method_name"><a href="#Float_/_70270174014000">Float#/</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>3231/3231</td>
+                   <td class="method_name"><a href="#Kernel_Float_70270174014000">Kernel#Float</a></td>
+                   <td></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>3231/45461</td>
+                   <td class="method_name"><a href="#Hash_each_key_70270174014000">Hash#each_key</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.05</td>
+                   <td>0.03</td>
+                   <td>0.00</td>
+                   <td>0.02</td>
+                   <td>42230/45461</td>
+                   <td class="method_name"><a href="#Array_each_70270174014000">Array#each</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.14%</td>
+                 <td>0.08%</td>
+                 <td>0.06</td>
+                 <td>0.04</td>
+                 <td>0.00</td>
+                 <td>0.02</td>
+                 <td>45461</td>
+                 <td class="method_name">
+                   <a name="Array_eql__70270174014000">
+                      Array#eql?
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.02</td>
+                   <td>0.02</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>90922/90922</td>
+                   <td class="method_name"><a href="#String_eql__70270174014000">String#eql?</a></td>
+                   <td></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.05</td>
+                   <td>0.02</td>
+                   <td>0.00</td>
+                   <td>0.03</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#CYKParser_extract_rules_70270174014000">CYKParser#extract_rules</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=131" title="/Users/tim/code/cyk-parser/cyk.rb:131">131</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.12%</td>
+                 <td>0.04%</td>
+                 <td>0.05</td>
+                 <td>0.02</td>
+                 <td>0.00</td>
+                 <td>0.03</td>
+                 <td>1</td>
+                 <td class="method_name">
+                   <a name="Array_select_70270174014000">
+                      Array#select
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.03</td>
+                   <td>0.03</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>24358/27647</td>
+                   <td class="method_name"><a href="#Array_include__70270174014000">Array#include?</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>24358/1516855</td>
+                   <td class="method_name"><a href="#Kernel_nil__70270174014000">Kernel#nil?</a></td>
+                   <td></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>472/195735</td>
+                   <td class="method_name"><a href="#Tree_unfactor_70270174014000">Tree#unfactor</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=56" title="/Users/tim/code/cyk-parser/tree.rb:56">56</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>48716/195735</td>
+                   <td class="method_name"><a href="#Tree_rhs_70270174014000">Tree#rhs</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=40" title="/Users/tim/code/cyk-parser/tree.rb:40">40</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>49115/195735</td>
+                   <td class="method_name"><a href="#Tree_get_leaves_70270174014000">Tree#get_leaves</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=106" title="/Users/tim/code/cyk-parser/tree.rb:106">106</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>48716/195735</td>
+                   <td class="method_name"><a href="#Tree_get_all_trees_70270174014000">Tree#get_all_trees</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=94" title="/Users/tim/code/cyk-parser/tree.rb:94">94</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>48716/195735</td>
+                   <td class="method_name"><a href="#Tree_left_factor!_70270174014000">Tree#left_factor!</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=68" title="/Users/tim/code/cyk-parser/tree.rb:68">68</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.11%</td>
+                 <td>0.11%</td>
+                 <td>0.05</td>
+                 <td>0.05</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>195735</td>
+                 <td class="method_name">
+                   <a name="Kernel_is_a__70270174014000">
+                      Kernel#is_a?
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.04</td>
+                   <td>0.04</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>82054/82054</td>
+                   <td class="method_name"><a href="#Tree_consume_70270174014000">Tree#consume</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=30" title="/Users/tim/code/cyk-parser/tree.rb:30">30</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.09%</td>
+                 <td>0.09%</td>
+                 <td>0.04</td>
+                 <td>0.04</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>82054</td>
+                 <td class="method_name">
+                   <a name="String_strip_70270174014000">
+                      String#strip
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.04</td>
+                   <td>0.04</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>48716/48716</td>
+                   <td class="method_name"><a href="#Tree_rhs_70270174014000">Tree#rhs</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=41" title="/Users/tim/code/cyk-parser/tree.rb:41">41</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.09%</td>
+                 <td>0.09%</td>
+                 <td>0.04</td>
+                 <td>0.04</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>48716</td>
+                 <td class="method_name">
+                   <a name="Array_join_70270174014000">
+                      Array#join
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.03</td>
+                   <td>0.03</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2/2</td>
+                   <td class="method_name"><a href="#_Class__IO__open_70270174014000">&lt;Class::IO&gt;#open</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.07%</td>
+                 <td>0.07%</td>
+                 <td>0.03</td>
+                 <td>0.03</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>2</td>
+                 <td class="method_name">
+                   <a name="IO_readlines_70270174014000">
+                      IO#readlines
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.03</td>
+                   <td>0.03</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>49984/49984</td>
+                   <td class="method_name"><a href="#Class_new_70270174014000">Class#new</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.07%</td>
+                 <td>0.07%</td>
+                 <td>0.03</td>
+                 <td>0.03</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>49984</td>
+                 <td class="method_name">
+                   <a name="Tree_initialize_70270174014000">
+                      Tree#initialize
+                   </a>
+                 </td>
+                 <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=14" title="/Users/tim/code/cyk-parser/tree.rb:14">14</a></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.03</td>
+                   <td>0.03</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>110356/110356</td>
+                   <td class="method_name"><a href="#Array_hash_70270174014000">Array#hash</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.06%</td>
+                 <td>0.06%</td>
+                 <td>0.03</td>
+                 <td>0.03</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>110356</td>
+                 <td class="method_name">
+                   <a name="String_hash_70270174014000">
+                      String#hash
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.02</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.02</td>
+                   <td>20/20</td>
+                   <td class="method_name"><a href="#Class_new_70270174014000">Class#new</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.06%</td>
+                 <td>0.00%</td>
+                 <td>0.02</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.02</td>
+                 <td>20</td>
+                 <td class="method_name">
+                   <a name="Array3D_initialize_70270174014000">
+                      Array3D#initialize
+                   </a>
+                 </td>
+                 <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=25" title="/Users/tim/code/cyk-parser/cyk.rb:25">25</a></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.02</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.02</td>
+                   <td>20/512</td>
+                   <td class="method_name"><a href="#Integer_times_70270174014000">Integer#times</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=30" title="/Users/tim/code/cyk-parser/cyk.rb:30">30</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>20/64977</td>
+                   <td class="method_name"><a href="#Class_new_70270174014000">Class#new</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=28" title="/Users/tim/code/cyk-parser/cyk.rb:28">28</a></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.02</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.01</td>
+                   <td>492/512</td>
+                   <td class="method_name"><a href="#Integer_times_70270174014000">Integer#times</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.02</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.02</td>
+                   <td>20/512</td>
+                   <td class="method_name"><a href="#Array3D_initialize_70270174014000">Array3D#initialize</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=30" title="/Users/tim/code/cyk-parser/cyk.rb:30">30</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.06%</td>
+                 <td>0.00%</td>
+                 <td>0.02</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.02</td>
+                 <td>512</td>
+                 <td class="method_name">
+                   <a name="Integer_times_70270174014000">
+                     *Integer#times
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.02</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.01</td>
+                   <td>492/512</td>
+                   <td class="method_name"><a href="#Integer_times_70270174014000">Integer#times</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.01</td>
+                   <td>14948/64977</td>
+                   <td class="method_name"><a href="#Class_new_70270174014000">Class#new</a></td>
+                   <td></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.02</td>
+                   <td>0.02</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>90922/90922</td>
+                   <td class="method_name"><a href="#Array_eql__70270174014000">Array#eql?</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.05%</td>
+                 <td>0.05%</td>
+                 <td>0.02</td>
+                 <td>0.02</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>90922</td>
+                 <td class="method_name">
+                   <a name="String_eql__70270174014000">
+                      String#eql?
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.02</td>
+                   <td>0.02</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>41027/41027</td>
+                   <td class="method_name"><a href="#Tree_configure_70270174014000">Tree#configure</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=125" title="/Users/tim/code/cyk-parser/tree.rb:125">125</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.05%</td>
+                 <td>0.05%</td>
+                 <td>0.02</td>
+                 <td>0.02</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>41027</td>
+                 <td class="method_name">
+                   <a name="String_strip!_70270174014000">
+                      String#strip!
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>3231/3231</td>
+                   <td class="method_name"><a href="#Hash_each_key_70270174014000">Hash#each_key</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.03%</td>
+                 <td>0.03%</td>
+                 <td>0.01</td>
+                 <td>0.01</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>3231</td>
+                 <td class="method_name">
+                   <a name="String_split_70270174014000">
+                      String#split
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>14971/14971</td>
+                   <td class="method_name"><a href="#Class_new_70270174014000">Class#new</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.02%</td>
+                 <td>0.02%</td>
+                 <td>0.01</td>
+                 <td>0.01</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>14971</td>
+                 <td class="method_name">
+                   <a name="Hash_initialize_70270174014000">
+                      Hash#initialize
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#CYKParser_determine_parts_of_speech_70270174014000">CYKParser#determine_parts_of_speech</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=116" title="/Users/tim/code/cyk-parser/cyk.rb:116">116</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.01%</td>
+                 <td>0.01%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>1</td>
+                 <td class="method_name">
+                   <a name="Array_uniq_70270174014000">
+                      Array#uniq
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>462/472</td>
+                   <td class="method_name"><a href="#Array_collect_70270174014000">Array#collect</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>10/472</td>
+                   <td class="method_name"><a href="#Array_each_70270174014000">Array#each</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.01%</td>
+                 <td>0.00%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>472</td>
+                 <td class="method_name">
+                   <a name="Tree_unfactor_70270174014000">
+                     *Tree#unfactor
+                   </a>
+                 </td>
+                 <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=55" title="/Users/tim/code/cyk-parser/tree.rb:55">55</a></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>236/73474</td>
+                   <td class="method_name"><a href="#Array_collect_70270174014000">Array#collect</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=56" title="/Users/tim/code/cyk-parser/tree.rb:56">56</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>472/472</td>
+                   <td class="method_name"><a href="#Tree_am_i_real__70270174014000">Tree#am_i_real?</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=57" title="/Users/tim/code/cyk-parser/tree.rb:57">57</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>397/64977</td>
+                   <td class="method_name"><a href="#Class_new_70270174014000">Class#new</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=58" title="/Users/tim/code/cyk-parser/tree.rb:58">58</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>236/24758</td>
+                   <td class="method_name"><a href="#Array_flatten_70270174014000">Array#flatten</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=56" title="/Users/tim/code/cyk-parser/tree.rb:56">56</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>472/195735</td>
+                   <td class="method_name"><a href="#Kernel_is_a__70270174014000">Kernel#is_a?</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=56" title="/Users/tim/code/cyk-parser/tree.rb:56">56</a></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>452/462</td>
+                   <td class="method_name"><a href="#CYKParser_build_tree_70270174014000">CYKParser#build_tree</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=272" title="/Users/tim/code/cyk-parser/cyk.rb:272">272</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>10/462</td>
+                   <td class="method_name"><a href="#CYKParser_parse_70270174014000">CYKParser#parse</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=247" title="/Users/tim/code/cyk-parser/cyk.rb:247">247</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.01%</td>
+                 <td>0.00%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>462</td>
+                 <td class="method_name">
+                   <a name="CYKParser_build_tree_70270174014000">
+                     *CYKParser#build_tree
+                   </a>
+                 </td>
+                 <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=259" title="/Users/tim/code/cyk-parser/cyk.rb:259">259</a></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>452/462</td>
+                   <td class="method_name"><a href="#CYKParser_build_tree_70270174014000">CYKParser#build_tree</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=272" title="/Users/tim/code/cyk-parser/cyk.rb:272">272</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>462/64977</td>
+                   <td class="method_name"><a href="#Class_new_70270174014000">Class#new</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=260" title="/Users/tim/code/cyk-parser/cyk.rb:260">260</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>688/688</td>
+                   <td class="method_name"><a href="#Array3D_[]_70270174014000">Array3D#[]</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=268" title="/Users/tim/code/cyk-parser/cyk.rb:268">268</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>462/462</td>
+                   <td class="method_name"><a href="#Kernel_____70270174014000">Kernel#===</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=261" title="/Users/tim/code/cyk-parser/cyk.rb:261">261</a></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1161/1161</td>
+                   <td class="method_name"><a href="#Array_each_70270174014000">Array#each</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.00%</td>
+                 <td>0.00%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>1161</td>
+                 <td class="method_name">
+                   <a name="BasicObject_!__70270174014000">
+                      BasicObject#!=
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1161/1161</td>
+                   <td class="method_name"><a href="#Integer____70270174014000">Integer#==</a></td>
+                   <td></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>3231/3231</td>
+                   <td class="method_name"><a href="#Hash_each_key_70270174014000">Hash#each_key</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.00%</td>
+                 <td>0.00%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>3231</td>
+                 <td class="method_name">
+                   <a name="_Module__Math__log_70270174014000">
+                      &lt;Module::Math&gt;#log
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>3231/3231</td>
+                   <td class="method_name"><a href="#Hash_each_key_70270174014000">Hash#each_key</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.00%</td>
+                 <td>0.00%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>3231</td>
+                 <td class="method_name">
+                   <a name="Float_/_70270174014000">
+                      Float#/
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>3231/3231</td>
+                   <td class="method_name"><a href="#Hash_each_key_70270174014000">Hash#each_key</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.00%</td>
+                 <td>0.00%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>3231</td>
+                 <td class="method_name">
+                   <a name="Kernel_Float_70270174014000">
+                      Kernel#Float
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1010/1010</td>
+                   <td class="method_name"><a href="#_Class__Tree__from_string_70270174014000">&lt;Class::Tree&gt;#from_string</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=9" title="/Users/tim/code/cyk-parser/tree.rb:9">9</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.00%</td>
+                 <td>0.00%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>1010</td>
+                 <td class="method_name">
+                   <a name="String_chomp_70270174014000">
+                      String#chomp
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1161/1161</td>
+                   <td class="method_name"><a href="#BasicObject_!__70270174014000">BasicObject#!=</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.00%</td>
+                 <td>0.00%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>1161</td>
+                 <td class="method_name">
+                   <a name="Integer____70270174014000">
+                      Integer#==
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1161/1387</td>
+                   <td class="method_name"><a href="#BasicObject____70270174014000">BasicObject#==</a></td>
+                   <td></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>472/472</td>
+                   <td class="method_name"><a href="#Tree_unfactor_70270174014000">Tree#unfactor</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=57" title="/Users/tim/code/cyk-parser/tree.rb:57">57</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.00%</td>
+                 <td>0.00%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>472</td>
+                 <td class="method_name">
+                   <a name="Tree_am_i_real__70270174014000">
+                      Tree#am_i_real?
+                   </a>
+                 </td>
+                 <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=51" title="/Users/tim/code/cyk-parser/tree.rb:51">51</a></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>472/1701</td>
+                   <td class="method_name"><a href="#String_index_70270174014000">String#index</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=52" title="/Users/tim/code/cyk-parser/tree.rb:52">52</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>397/61745453</td>
+                   <td class="method_name"><a href="#NilClass_nil__70270174014000">NilClass#nil?</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=52" title="/Users/tim/code/cyk-parser/tree.rb:52">52</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>75/1516855</td>
+                   <td class="method_name"><a href="#Kernel_nil__70270174014000">Kernel#nil?</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=52" title="/Users/tim/code/cyk-parser/tree.rb:52">52</a></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>688/688</td>
+                   <td class="method_name"><a href="#CYKParser_build_tree_70270174014000">CYKParser#build_tree</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=268" title="/Users/tim/code/cyk-parser/cyk.rb:268">268</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.00%</td>
+                 <td>0.00%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>688</td>
+                 <td class="method_name">
+                   <a name="Array3D_[]_70270174014000">
+                      Array3D#[]
+                   </a>
+                 </td>
+                 <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=60" title="/Users/tim/code/cyk-parser/cyk.rb:60">60</a></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>472/1701</td>
+                   <td class="method_name"><a href="#Tree_am_i_real__70270174014000">Tree#am_i_real?</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/tree.rb&line=52" title="/Users/tim/code/cyk-parser/tree.rb:52">52</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1229/1701</td>
+                   <td class="method_name"><a href="#Array_each_70270174014000">Array#each</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.00%</td>
+                 <td>0.00%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>1701</td>
+                 <td class="method_name">
+                   <a name="String_index_70270174014000">
+                      String#index
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1000/1000</td>
+                   <td class="method_name"><a href="#Array_each_70270174014000">Array#each</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.00%</td>
+                 <td>0.00%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>1000</td>
+                 <td class="method_name">
+                   <a name="Array_[]__70270174014000">
+                      Array#[]=
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>226/1387</td>
+                   <td class="method_name"><a href="#Kernel_____70270174014000">Kernel#===</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1161/1387</td>
+                   <td class="method_name"><a href="#Integer____70270174014000">Integer#==</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.00%</td>
+                 <td>0.00%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>1387</td>
+                 <td class="method_name">
+                   <a name="BasicObject____70270174014000">
+                      BasicObject#==
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>10/10</td>
+                   <td class="method_name"><a href="#CYKParser_parse_70270174014000">CYKParser#parse</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=191" title="/Users/tim/code/cyk-parser/cyk.rb:191">191</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.00%</td>
+                 <td>0.00%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>10</td>
+                 <td class="method_name">
+                   <a name="CYKParser_check_tags_70270174014000">
+                      CYKParser#check_tags
+                   </a>
+                 </td>
+                 <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=171" title="/Users/tim/code/cyk-parser/cyk.rb:171">171</a></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>20/20</td>
+                   <td class="method_name"><a href="#Array_any__70270174014000">Array#any?</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=175" title="/Users/tim/code/cyk-parser/cyk.rb:175">175</a></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>20/20</td>
+                   <td class="method_name"><a href="#CYKParser_check_tags_70270174014000">CYKParser#check_tags</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=175" title="/Users/tim/code/cyk-parser/cyk.rb:175">175</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.00%</td>
+                 <td>0.00%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>20</td>
+                 <td class="method_name">
+                   <a name="Array_any__70270174014000">
+                      Array#any?
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>236/1516855</td>
+                   <td class="method_name"><a href="#Kernel_nil__70270174014000">Kernel#nil?</a></td>
+                   <td></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>462/462</td>
+                   <td class="method_name"><a href="#CYKParser_build_tree_70270174014000">CYKParser#build_tree</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=261" title="/Users/tim/code/cyk-parser/cyk.rb:261">261</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.00%</td>
+                 <td>0.00%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>462</td>
+                 <td class="method_name">
+                   <a name="Kernel_____70270174014000">
+                      Kernel#===
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>226/1387</td>
+                   <td class="method_name"><a href="#BasicObject____70270174014000">BasicObject#==</a></td>
+                   <td></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2/2</td>
+                   <td class="method_name"><a href="#_Class__IO__open_70270174014000">&lt;Class::IO&gt;#open</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.00%</td>
+                 <td>0.00%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>2</td>
+                 <td class="method_name">
+                   <a name="File_initialize_70270174014000">
+                      File#initialize
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2/2</td>
+                   <td class="method_name"><a href="#_Class__IO__open_70270174014000">&lt;Class::IO&gt;#open</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.00%</td>
+                 <td>0.00%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>2</td>
+                 <td class="method_name">
+                   <a name="Array_take_70270174014000">
+                      Array#take
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2/2</td>
+                   <td class="method_name"><a href="#_Class__IO__open_70270174014000">&lt;Class::IO&gt;#open</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.00%</td>
+                 <td>0.00%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>2</td>
+                 <td class="method_name">
+                   <a name="IO_close_70270174014000">
+                      IO#close
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#CYKParser_compute_probabilities_70270174014000">CYKParser#compute_probabilities</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=145" title="/Users/tim/code/cyk-parser/cyk.rb:145">145</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.00%</td>
+                 <td>0.00%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>1</td>
+                 <td class="method_name">
+                   <a name="Hash_keys_70270174014000">
+                      Hash#keys
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/6</td>
+                   <td class="method_name"><a href="#CYKParser_left_factor_70270174014000">CYKParser#left_factor</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=108" title="/Users/tim/code/cyk-parser/cyk.rb:108">108</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/6</td>
+                   <td class="method_name"><a href="#CYKParser_extract_rules_70270174014000">CYKParser#extract_rules</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=122" title="/Users/tim/code/cyk-parser/cyk.rb:122">122</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/6</td>
+                   <td class="method_name"><a href="#CYKParser_compute_probabilities_70270174014000">CYKParser#compute_probabilities</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=137" title="/Users/tim/code/cyk-parser/cyk.rb:137">137</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2/6</td>
+                   <td class="method_name"><a href="#Object_read_trees_70270174014000">Object#read_trees</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/prof.rb&line=27" title="/Users/tim/code/cyk-parser/prof.rb:27">27</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/6</td>
+                   <td class="method_name"><a href="#CYKParser_determine_parts_of_speech_70270174014000">CYKParser#determine_parts_of_speech</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=115" title="/Users/tim/code/cyk-parser/cyk.rb:115">115</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.00%</td>
+                 <td>0.00%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>6</td>
+                 <td class="method_name">
+                   <a name="Object_log_70270174014000">
+                      Object#log
+                   </a>
+                 </td>
+                 <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=7" title="/Users/tim/code/cyk-parser/cyk.rb:7">7</a></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>10/10</td>
+                   <td class="method_name"><a href="#CYKParser_parse_70270174014000">CYKParser#parse</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=233" title="/Users/tim/code/cyk-parser/cyk.rb:233">233</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.00%</td>
+                 <td>0.00%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>10</td>
+                 <td class="method_name">
+                   <a name="Float_-@_70270174014000">
+                      Float#-@
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>10/10</td>
+                   <td class="method_name"><a href="#CYKParser_parse_70270174014000">CYKParser#parse</a></td>
+                   <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=186" title="/Users/tim/code/cyk-parser/cyk.rb:186">186</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.00%</td>
+                 <td>0.00%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>10</td>
+                 <td class="method_name">
+                   <a name="Array3D_get_table_70270174014000">
+                      Array3D#get_table
+                   </a>
+                 </td>
+                 <td><a href="txmt://open?url=file:///Users/tim/code/cyk-parser/cyk.rb&line=40" title="/Users/tim/code/cyk-parser/cyk.rb:40">40</a></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#Class_new_70270174014000">Class#new</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.00%</td>
+                 <td>0.00%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>1</td>
+                 <td class="method_name">
+                   <a name="Array_initialize_70270174014000">
+                      Array#initialize
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>10/10</td>
+                   <td class="method_name"><a href="#Range_each_70270174014000">Range#each</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.00%</td>
+                 <td>0.00%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>10</td>
+                 <td class="method_name">
+                   <a name="Float___70270174014000">
+                      Float#&gt;
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2/2</td>
+                   <td class="method_name"><a href="#_Class__IO__open_70270174014000">&lt;Class::IO&gt;#open</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.00%</td>
+                 <td>0.00%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>2</td>
+                 <td class="method_name">
+                   <a name="IO_closed__70270174014000">
+                      IO#closed?
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="9">* indicates recursively called methods</td>
+          </tr>
+        </tfoot>
+      </table>
+
+  </body>
+</html>
