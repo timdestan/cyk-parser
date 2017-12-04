@@ -24,7 +24,7 @@ end
 result = RubyProf.profile do
   training_trees = read_trees(TRAINING_FILENAME, 1000)
   # test_trees = read_trees(TEST_FILENAME, limit=1000)
-  parser = CYKParser.new(training_trees)
+  CYKParser.new(training_trees)
 end
 
 # test_trees.each do |tree|
