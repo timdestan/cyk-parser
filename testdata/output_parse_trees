@@ -1,0 +1,4449 @@
+(TOP 
+  (S 
+    (PP 
+      (IN  In)
+      (NP 
+        (NP 
+          (DT  an)
+          (NNP  Oct.)
+          (CD  19)
+          (NN  review))
+        (PP 
+          (IN  of)
+          (NP 
+            (``  ``)
+            (NP 
+              (DT  The)
+              (NN  Misanthrope))
+            (''  '')
+            (PP 
+              (IN  at)
+              (NP 
+                (NP 
+                  (NNP  Chicago)
+                  (POS  's))
+                (NNP  Goodman)
+                (NNP  Theatre)))))
+        (PRN 
+          (-LRB-  -LRB-)
+          (``  ``)
+          (S 
+            (NP 
+              (VBN  Revitalized)
+              (NNS  Classics))
+            (VP 
+              (VBP  Take)
+              (NP 
+                (DT  the)
+                (NN  Stage))
+              (PP 
+                (IN  in)
+                (NP 
+                  (NNP  Windy)
+                  (NNP  City)))))
+          (,  ,)
+          (''  '')
+          (NP 
+            (NN  Leisure)
+            (CC  &)
+            (NNS  Arts))
+          (-RRB-  -RRB-))))
+    (,  ,)
+    (NP 
+      (NP 
+        (NP 
+          (DT  the)
+          (NN  role))
+        (PP 
+          (IN  of)
+          (NNP  Celimene)))
+      (,  ,)
+      (VP 
+        (VBN  played)
+        (PP 
+          (IN  by)
+          (NP 
+            (NNP  Kim)
+            (NNP  Cattrall))))
+      (,  ,))
+    (VP 
+      (VBD  was)
+      (VP 
+        (RB  mistakenly)
+        (VBN  attributed)
+        (PP 
+          (TO  to)
+          (NP 
+            (NNP  Christina)
+            (NNP  Haag)))))
+    (.  .)))
+(TOP 
+  (S 
+    (NP 
+      (NNP  Ms.)
+      (NNP  Haag))
+    (VP 
+      (VBZ  plays)
+      (NNP  Elianti))
+    (.  .)))
+(TOP 
+  (S 
+    (NP 
+      (NNP  Rolls-Royce)
+      (NNP  Motor)
+      (NNPS  Cars)
+      (NNP  Inc.))
+    (VP 
+      (VBD  said)
+      (S 
+        (PRP  it)
+        (VP 
+          (VBZ  expects)
+          (S 
+            (NP 
+              (PRP$  its)
+              (NNP  U.S.)
+              (NNS  sales))
+            (VP 
+              (TO  to)
+              (VP 
+                (VB  remain)
+                (JJ  steady)
+                (PP 
+                  (IN  at)
+                  (NP 
+                    (QP 
+                      (IN  about)
+                      (CD  1,200))
+                    (NNS  cars)))
+                (PP 
+                  (IN  in)
+                  (CD  1990))))))))
+    (.  .)))
+(TOP 
+  (S 
+    (NP 
+      (DT  The)
+      (NN  luxury)
+      (NN  auto)
+      (NN  maker))
+    (NP 
+      (JJ  last)
+      (NN  year))
+    (VP 
+      (VBD  sold)
+      (NP 
+        (CD  1,214)
+        (NNS  cars))
+      (PP 
+        (IN  in)
+        (NP 
+          (DT  the)
+          (NNP  U.S.))))))
+(TOP 
+  (S 
+    (NP 
+      (NP 
+        (NNP  Howard)
+        (NNP  Mosher))
+      (,  ,)
+      (NP 
+        (NN  president)
+        (CC  and)
+        (NP 
+          (JJ  chief)
+          (NN  executive)
+          (NN  officer)))
+      (,  ,))
+    (VP 
+      (VBD  said)
+      (S 
+        (PRP  he)
+        (VP 
+          (VBZ  anticipates)
+          (NP 
+            (NN  growth)
+            (PP 
+              (IN  for)
+              (NP 
+                (DT  the)
+                (NN  luxury)
+                (NN  auto)
+                (NN  maker)))
+            (PP 
+              (PP 
+                (IN  in)
+                (NP 
+                  (NNP  Britain)
+                  (CC  and)
+                  (NNP  Europe)))
+              (,  ,)
+              (CC  and)
+              (PP 
+                (IN  in)
+                (NP 
+                  (ADJP 
+                    (JJ  Far)
+                    (JJ  Eastern))
+                  (NNS  markets))))))))
+    (.  .)))
+(TOP 
+  (S 
+    (NP 
+      (NNP  BELL)
+      (NNP  INDUSTRIES)
+      (NNP  Inc.))
+    (VP 
+      (VBD  increased)
+      (NP 
+        (PRP$  its)
+        (NN  quarterly))
+      (PP 
+        (TO  to)
+        (NP 
+          (CD  10)
+          (NNS  cents)))
+      (PP 
+        (IN  from)
+        (NP 
+          (NP 
+            (CD  seven)
+            (NNS  cents))
+          (NP 
+            (DT  a)
+            (NN  share)))))
+    (.  .)))
+(TOP 
+  (S 
+    (NP 
+      (DT  The)
+      (JJ  new)
+      (NN  rate))
+    (VP 
+      (MD  will)
+      (VP 
+        (VB  be)
+        (ADJP 
+          (JJ  payable)
+          (NP 
+            (NNP  Feb.)
+            (CD  15)))))
+    (.  .)))
+(TOP 
+  (S 
+    (NP 
+      (DT  A)
+      (NN  record)
+      (NN  date))
+    (VP 
+      (VBZ  has)
+      (RB  n't)
+      (VP 
+        (VBN  been)
+        (VBN  set)))
+    (.  .)))
+(TOP 
+  (S 
+    (NP 
+      (NNP  Bell)
+      (,  ,)
+      (VP 
+        (VBN  based)
+        (PP 
+          (IN  in)
+          (NP 
+            (NNP  Los)
+            (NNP  Angeles))))
+      (,  ,))
+    (VP 
+      (VBZ  makes)
+      (CC  and)
+      (VBZ  distributes)
+      (NP 
+        (UCP 
+          (JJ  electronic)
+          (,  ,)
+          (NN  computer)
+          (CC  and)
+          (NN  building))
+        (NNS  products)))
+    (.  .)))
+(TOP 
+  (S 
+    (NNS  Investors)
+    (VP 
+      (VBP  are)
+      (VP 
+        (VBG  appealing)
+        (PP 
+          (TO  to)
+          (NP 
+            (DT  the)
+            (NNPS  Securities)
+            (CC  and)
+            (NNP  Exchange)
+            (NNP  Commission)))
+        (S 
+          (RB  not)
+          (VP 
+            (TO  to)
+            (VP 
+              (VB  limit)
+              (NP 
+                (NP 
+                  (PRP$  their)
+                  (NN  access))
+                (PP 
+                  (TO  to)
+                  (NP 
+                    (NN  information)
+                    (PP 
+                      (IN  about)
+                      (NP 
+                        (NP 
+                          (NN  stock)
+                          (NNS  purchases)
+                          (CC  and)
+                          (NNS  sales))
+                        (PP 
+                          (IN  by)
+                          (NP 
+                            (JJ  corporate)
+                            (NNS  insiders)))))))))))))
+    (.  .)))
+(TOP 
+  (S 
+    (S 
+      (NP 
+        (DT  A)
+        (NNP  SEC)
+        (NN  proposal)
+        (VP 
+          (TO  to)
+          (VP 
+            (VB  ease)
+            (NP 
+              (NP 
+                (NN  reporting)
+                (NNS  requirements))
+              (PP 
+                (IN  for)
+                (NP 
+                  (DT  some)
+                  (NN  company)
+                  (NNS  executives)))))))
+      (VP 
+        (MD  would)
+        (VP 
+          (VB  undermine)
+          (NP 
+            (NP 
+              (DT  the)
+              (NN  usefulness))
+            (PP 
+              (IN  of)
+              (NP 
+                (NN  information)
+                (PP 
+                  (IN  on)
+                  (NP 
+                    (NN  insider)
+                    (NNS  trades)))))
+            (PP 
+              (IN  as)
+              (NP 
+                (DT  a)
+                (JJ  stock-picking)
+                (NN  tool)))))))
+    (,  ,)
+    (NP 
+      (NP 
+        (JJ  individual)
+        (NNS  investors))
+      (CC  and)
+      (NP 
+        (JJ  professional)
+        (NN  money)
+        (NNS  managers)))
+    (VBP  contend)
+    (.  .)))
+(TOP 
+  (S 
+    (PRP  They)
+    (VP 
+      (VBP  make)
+      (NP 
+        (DT  the)
+        (NN  argument))
+      (PP 
+        (IN  in)
+        (NP 
+          (NNS  letters)
+          (PP 
+            (TO  to)
+            (NP 
+              (DT  the)
+              (NN  agency)))
+          (PP 
+            (IN  about)
+            (NP 
+              (NP 
+                (NN  rule)
+                (NNS  changes))
+              (VP 
+                (VBD  proposed)
+                (NP 
+                  (DT  this)
+                  (JJ  past)
+                  (NN  summer)))
+              (SBAR 
+                (IN  that)
+                (,  ,)
+                (S 
+                  (PP 
+                    (IN  among)
+                    (NP 
+                      (JJ  other)
+                      (NNS  things)))
+                  (,  ,)
+                  (VP 
+                    (MD  would)
+                    (VP 
+                      (VB  exempt)
+                      (NP 
+                        (JJ  many)
+                        (JJ  middle-management)
+                        (NNS  executives))
+                      (PP 
+                        (IN  from)
+                        (VP 
+                          (VBG  reporting)
+                          (NP 
+                            (NNS  trades)
+                            (PP 
+                              (IN  in)
+                              (NP 
+                                (NP 
+                                  (PRP$  their)
+                                  (JJ  own)
+                                  (NNS  companies)
+                                  (POS  '))
+                                (NNS  shares)))))))))))))))
+    (.  .)))
+(TOP 
+  (S 
+    (NP 
+      (DT  The)
+      (VBN  proposed)
+      (NNS  changes))
+    (RB  also)
+    (VP 
+      (MD  would)
+      (VP 
+        (VB  allow)
+        (S 
+          (NNS  executives)
+          (VP 
+            (TO  to)
+            (VP 
+              (VB  report)
+              (NP 
+                (NNS  exercises)
+                (PP 
+                  (IN  of)
+                  (NNS  options)))
+              (ADVP 
+                (RBR  later)
+                (CC  and)
+                (ADVP 
+                  (RBR  less)
+                  (RB  often))))))))
+    (.  .)))
+(TOP 
+  (S 
+    (NP 
+      (JJ  Many)
+      (PP 
+        (IN  of)
+        (NP 
+          (DT  the)
+          (NNS  letters))))
+    (VP 
+      (VBP  maintain)
+      (SBAR 
+        (IN  that)
+        (S 
+          (S 
+            (NP 
+              (NN  investor)
+              (NN  confidence))
+            (VP 
+              (VBZ  has)
+              (VP 
+                (VBN  been)
+                (VP 
+                  (RB  so)
+                  (VBN  shaken)
+                  (PP 
+                    (IN  by)
+                    (NP 
+                      (DT  the)
+                      (CD  1987)
+                      (NN  stock)
+                      (NN  market)
+                      (NN  crash)))))))
+          (:  --)
+          (CC  and)
+          (S 
+            (NP 
+              (DT  the)
+              (NNS  markets))
+            (RB  already)
+            (VP 
+              (RB  so)
+              (VBN  stacked)
+              (PP 
+                (IN  against)
+                (NP 
+                  (DT  the)
+                  (JJ  little)
+                  (NN  guy)))))
+          (:  --)
+          (SBAR 
+            (IN  that)
+            (S 
+              (NP 
+                (NP 
+                  (DT  any)
+                  (NN  decrease))
+                (PP 
+                  (IN  in)
+                  (NP 
+                    (NN  information)
+                    (PP 
+                      (IN  on)
+                      (NP 
+                        (NN  insider-trading)
+                        (NNS  patterns))))))
+              (VP 
+                (MD  might)
+                (VP 
+                  (VB  prompt)
+                  (S 
+                    (NNS  individuals)
+                    (VP 
+                      (TO  to)
+                      (VP 
+                        (VB  get)
+                        (ADVP 
+                          (RB  out)
+                          (PP 
+                            (IN  of)
+                            (NNS  stocks)))
+                        (RB  altogether)))))))))))
+    (.  .)))
+(TOP 
+  (SINV 
+    (``  ``)
+    (S 
+      (NP 
+        (DT  The)
+        (NNP  SEC))
+      (VP 
+        (VBZ  has)
+        (RB  historically)
+        (VP 
+          (VBN  paid)
+          (NN  obeisance)
+          (PP 
+            (TO  to)
+            (NP 
+              (NP 
+                (DT  the)
+                (NN  ideal))
+              (PP 
+                (IN  of)
+                (NP 
+                  (DT  a)
+                  (JJ  level)
+                  (NN  playing)
+                  (NN  field))))))))
+    (,  ,)
+    (''  '')
+    (VBD  wrote)
+    (NP 
+      (NP 
+        (NNP  Clyde)
+        (NNP  S.)
+        (NNP  McGregor))
+      (PP 
+        (IN  of)
+        (NP 
+          (NNP  Winnetka)
+          (,  ,)
+          (NNP  Ill.)
+          (,  ,))))
+    (PP 
+      (IN  in)
+      (NP 
+        (CD  one)
+        (PP 
+          (IN  of)
+          (NP 
+            (NP 
+              (DT  the)
+              (CD  92)
+              (NNS  letters))
+            (S 
+              (NP 
+                (DT  the)
+                (NN  agency))
+              (VP 
+                (VBZ  has)
+                (VP 
+                  (VBN  received)
+                  (SBAR 
+                    (IN  since)
+                    (S 
+                      (NP 
+                        (DT  the)
+                        (NNS  changes))
+                      (VP 
+                        (VBD  were)
+                        (VP 
+                          (VBN  proposed)
+                          (NP 
+                            (NNP  Aug.)
+                            (CD  17)))))))))))))
+    (.  .)))
+(TOP 
+  (S 
+    (``  ``)
+    (RB  Apparently)
+    (NP 
+      (DT  the)
+      (NN  commission))
+    (VP 
+      (VBD  did)
+      (RB  not)
+      (RB  really)
+      (VP 
+        (VB  believe)
+        (PP 
+          (IN  in)
+          (NP 
+            (DT  this)
+            (NN  ideal)))))
+    (.  .)
+    (''  '')))
+(TOP 
+  (S 
+    (RB  Currently)
+    (,  ,)
+    (NP 
+      (DT  the)
+      (NNS  rules))
+    (VP 
+      (VBP  force)
+      (S 
+        (NP 
+          (NNS  executives)
+          (,  ,)
+          (NNS  directors)
+          (CC  and)
+          (NP 
+            (JJ  other)
+            (JJ  corporate)
+            (NNS  insiders)))
+        (VP 
+          (TO  to)
+          (VP 
+            (VB  report)
+            (NP 
+              (NP 
+                (NNS  purchases)
+                (CC  and)
+                (NNS  sales))
+              (PP 
+                (IN  of)
+                (NP 
+                  (NP 
+                    (PRP$  their)
+                    (NNS  companies)
+                    (POS  '))
+                  (NNS  shares))))
+            (PP 
+              (IN  within)
+              (NP 
+                (NP 
+                  (QP 
+                    (IN  about)
+                    (DT  a))
+                  (NN  month))
+                (PP 
+                  (IN  after)
+                  (NP 
+                    (DT  the)
+                    (NN  transaction)))))))))
+    (.  .)))
+(TOP 
+  (S 
+    (CC  But)
+    (NP 
+      (NP 
+        (QP 
+          (IN  about)
+          (CD  25))
+        (NN  %))
+      (PP 
+        (IN  of)
+        (NP 
+          (DT  the)
+          (NNS  insiders))))
+    (,  ,)
+    (PP 
+      (VBG  according)
+      (PP 
+        (TO  to)
+        (NP 
+          (NNP  SEC)
+          (NNS  figures))))
+    (,  ,)
+    (VP 
+      (VBP  file)
+      (NP 
+        (PRP$  their)
+        (NNS  reports))
+      (RB  late))
+    (.  .)))
+(TOP 
+  (SINV 
+    (S 
+      (NP 
+        (DT  The)
+        (NNS  changes))
+      (VP 
+        (VBD  were)
+        (VP 
+          (VBN  proposed)
+          (PP 
+            (IN  in)
+            (NP 
+              (DT  an)
+              (NN  effort)
+              (VP 
+                (TO  to)
+                (VP 
+                  (VP 
+                    (VB  streamline)
+                    (NP 
+                      (JJ  federal)
+                      (NN  bureaucracy)))
+                  (CC  and)
+                  (VP 
+                    (VB  boost)
+                    (NP 
+                      (NN  compliance)
+                      (PP 
+                        (IN  by)
+                        (NP 
+                          (NP 
+                            (DT  the)
+                            (NNS  executives))
+                          (``  ``)
+                          (SBAR 
+                            (WP  who)
+                            (VP 
+                              (VBP  are)
+                              (RB  really)
+                              (VP 
+                                (VBG  calling)
+                                (NP 
+                                  (DT  the)
+                                  (NNS  shots))))))))))))))))
+    (,  ,)
+    (''  '')
+    (VBD  said)
+    (NP 
+      (NP 
+        (NNP  Brian)
+        (NNP  Lane))
+      (,  ,)
+      (NP 
+        (NP 
+          (JJ  special)
+          (NN  counsel))
+        (PP 
+          (IN  at)
+          (NP 
+            (NP 
+              (NP 
+                (NP 
+                  (DT  the)
+                  (NNP  SEC)
+                  (POS  's))
+                (NN  office))
+              (PP 
+                (IN  of)
+                (NP 
+                  (NN  disclosure)
+                  (NN  policy))))
+            (,  ,)
+            (SBAR 
+              (WDT  which)
+              (VP 
+                (VBD  proposed)
+                (NP 
+                  (DT  the)
+                  (NNS  changes))))))))
+    (.  .)))
+(TOP 
+  (S 
+    (S 
+      (S 
+        (NP 
+          (NNS  Investors)
+          (,  ,)
+          (NP 
+            (NN  money)
+            (NNS  managers))
+          (CC  and)
+          (NP 
+            (JJ  corporate)
+            (NNS  officials)))
+        (VP 
+          (VBD  had)
+          (PP 
+            (IN  until)
+            (NN  today))
+          (VP 
+            (TO  to)
+            (VP 
+              (VB  comment)
+              (PP 
+                (IN  on)
+                (NP 
+                  (DT  the)
+                  (NNS  proposals)))))))
+      (,  ,)
+      (CC  and)
+      (S 
+        (NP 
+          (DT  the)
+          (NN  issue))
+        (VP 
+          (VBZ  has)
+          (VP 
+            (VBN  produced)
+            (NP 
+              (NP 
+                (JJR  more)
+                (NN  mail))
+              (PP 
+                (IN  than)
+                (NP 
+                  (NP 
+                    (ADJP 
+                      (RB  almost)
+                      (DT  any))
+                    (JJ  other)
+                    (NN  issue))
+                  (PP 
+                    (IN  in)
+                    (NN  memory)))))))))
+    (,  ,)
+    (NP 
+      (NNP  Mr.)
+      (NNP  Lane))
+    (VBD  said)
+    (.  .)))
+(TOP 
+  (S 
+    (S 
+      (NP 
+        (DT  The)
+        (NNP  SEC))
+      (VP 
+        (MD  will)
+        (RB  probably)
+        (VP 
+          (VB  vote)
+          (PP 
+            (IN  on)
+            (NP 
+              (DT  the)
+              (NN  proposal)))
+          (NP 
+            (RB  early)
+            (JJ  next)
+            (NN  year)))))
+    (,  ,)
+    (PRP  he)
+    (VBD  said)
+    (.  .)))
+(TOP 
+  (S 
+    (NP 
+      (NP 
+        (RB  Not)
+        (PDT  all)
+        (DT  those))
+      (SBAR 
+        (WP  who)
+        (VBD  wrote)))
+    (VP 
+      (VBP  oppose)
+      (NP 
+        (DT  the)
+        (NNS  changes)))
+    (.  .)))
+(TOP 
+  (S 
+    (NP 
+      (NP 
+        (DT  The)
+        (NNP  Committee))
+      (PP 
+        (IN  on)
+        (NP 
+          (NP 
+            (NNP  Federal)
+            (NNP  Regulation))
+          (PP 
+            (IN  of)
+            (NNPS  Securities))))
+      (PP 
+        (IN  for)
+        (NP 
+          (DT  the)
+          (NNP  American)
+          (NNP  Bar)
+          (NNP  Association))))
+    (VP 
+      (VBZ  argues)
+      (,  ,)
+      (PP 
+        (IN  for)
+        (NN  example))
+      (,  ,)
+      (PP 
+        (IN  in)
+        (NP 
+          (NP 
+            (PRP$  its)
+            (JJ  lengthy)
+            (NN  letter))
+          (PP 
+            (TO  to)
+            (NP 
+              (DT  the)
+              (NNP  SEC)))))
+      (,  ,)
+      (SBAR 
+        (IN  that)
+        (S 
+          (NP 
+            (DT  the)
+            (VBN  proposed)
+            (NNS  changes))
+          (``  ``)
+          (VP 
+            (MD  would)
+            (VP 
+              (RB  substantially)
+              (VB  improve)
+              (NP 
+                (DT  the)
+                (PRN 
+                  (-LRB-  -LCB-)
+                  (NN  law)
+                  (-RRB-  -RCB-)))
+              (PP 
+                (IN  by)
+                (VP 
+                  (VBG  conforming)
+                  (PRP  it)
+                  (ADVP 
+                    (RBR  more)
+                    (RB  closely))
+                  (PP 
+                    (TO  to)
+                    (NP 
+                      (JJ  contemporary)
+                      (NN  business)
+                      (NNS  realities))))))))))
+    (.  .)
+    (''  '')))
+(TOP 
+  (S 
+    (SBAR 
+      (WP  What)
+      (S 
+        (NP 
+          (NP 
+            (DT  the)
+            (NNS  investors))
+          (SBAR 
+            (WP  who)
+            (VP 
+              (VBP  oppose)
+              (NP 
+                (DT  the)
+                (VBN  proposed)
+                (NNS  changes)))))
+        (VP 
+          (VBP  object)
+          (TO  to)
+          (RBS  most))))
+    (VP 
+      (VBZ  is)
+      (NP 
+        (NP 
+          (DT  the)
+          (NN  effect))
+        (S 
+          (PRP  they)
+          (VP 
+            (VBP  say)
+            (S 
+              (NP 
+                (DT  the)
+                (NN  proposal))
+              (VP 
+                (MD  would)
+                (VP 
+                  (VB  have)
+                  (PP 
+                    (IN  on)
+                    (NP 
+                      (PRP$  their)
+                      (NN  ability)
+                      (VP 
+                        (TO  to)
+                        (VP 
+                          (VB  spot)
+                          (NP 
+                            (NP 
+                              (NP 
+                                (JJ  telltale)
+                                (``  ``)
+                                (NNS  clusters)
+                                (''  ''))
+                              (PP 
+                                (IN  of)
+                                (NP 
+                                  (NN  trading)
+                                  (NN  activity))))
+                            (:  --)
+                            (NP 
+                              (NP 
+                                (NN  buying)
+                                (CC  or)
+                                (NN  selling))
+                              (PP 
+                                (IN  by)
+                                (NP 
+                                  (QP 
+                                    (JJR  more)
+                                    (IN  than)
+                                    (CD  one))
+                                  (NN  officer)
+                                  (CC  or)
+                                  (NN  director)))
+                              (PP 
+                                (IN  within)
+                                (NP 
+                                  (NP 
+                                    (DT  a)
+                                    (JJ  short)
+                                    (NN  period))
+                                  (PP 
+                                    (IN  of)
+                                    (NN  time)))))))))))))))))
+    (.  .)))
+(TOP 
+  (S 
+    (PP 
+      (VBG  According)
+      (PP 
+        (TO  to)
+        (NP 
+          (DT  some)
+          (NNS  estimates))))
+    (,  ,)
+    (NP 
+      (DT  the)
+      (NN  rule)
+      (NNS  changes))
+    (VP 
+      (MD  would)
+      (VP 
+        (VB  cut)
+        (NP 
+          (NN  insider)
+          (NNS  filings))
+        (PP 
+          (IN  by)
+          (NP 
+            (JJR  more)
+            (PP 
+              (IN  than)
+              (NP 
+                (DT  a)
+                (NN  third)))))))
+    (.  .)))
+(TOP 
+  (S 
+    (NP 
+      (NP 
+        (DT  The)
+        (NNP  SEC)
+        (POS  's))
+      (NNP  Mr.)
+      (NNP  Lane))
+    (VP 
+      (RB  vehemently)
+      (VBD  disputed)
+      (NP 
+        (DT  those)
+        (NNS  estimates)))
+    (.  .)))
+(TOP 
+  (S 
+    (S 
+      (NP 
+        (DT  The)
+        (NNS  rules))
+      (VP 
+        (MD  will)
+        (VP 
+          (VB  eliminate)
+          (NP 
+            (NP 
+              (NNS  filings)
+              (VBG  policy-making)
+              (NNS  divisions))
+            (,  ,)
+            (PP 
+              (JJ  such)
+              (IN  as)
+              (NP 
+                (NNS  sales)
+                (,  ,)
+                (NN  marketing)
+                (,  ,)
+                (NN  finance)
+                (CC  and)
+                (NP 
+                  (NN  research)
+                  (CC  and)
+                  (NN  development))))))))
+    (,  ,)
+    (NP 
+      (NNP  Mr.)
+      (NNP  Lane))
+    (VBD  said)
+    (.  .)))
+(TOP 
+  (S 
+    (S 
+      (NP 
+        (DT  The)
+        (VBN  proposed)
+        (NNS  rules))
+      (RB  also)
+      (VP 
+        (MD  would)
+        (VP 
+          (VB  be)
+          (ADJP 
+            (JJR  tougher)
+            (PP 
+              (IN  on)
+              (NP 
+                (NP 
+                  (DT  the)
+                  (NNS  insiders))
+                (VP 
+                  (RB  still)
+                  (JJ  required)
+                  (VP 
+                    (TO  to)
+                    (VP 
+                      (VB  file)
+                      (NNS  reports))))))))))
+    (,  ,)
+    (PRP  he)
+    (VBD  said)
+    (.  .)))
+(TOP 
+  (S 
+    (NNS  Companies)
+    (VP 
+      (MD  would)
+      (VP 
+        (VB  be)
+        (VP 
+          (VBN  compelled)
+          (VP 
+            (TO  to)
+            (VP 
+              (VB  publish)
+              (PP 
+                (IN  in)
+                (NP 
+                  (JJ  annual)
+                  (NN  proxy)
+                  (NNS  statements)))
+              (NP 
+                (NP 
+                  (DT  the)
+                  (NNS  names))
+                (PP 
+                  (IN  of)
+                  (NP 
+                    (NNS  insiders)
+                    (SBAR 
+                      (WP  who)
+                      (VP 
+                        (VBP  fail)
+                        (VP 
+                          (TO  to)
+                          (VP 
+                            (VB  file)
+                            (NNS  reports)
+                            (PP 
+                              (IN  on)
+                              (NN  time))))))))))))))
+    (.  .)))
+(TOP 
+  (S 
+    (VP 
+      (VBN  Considered)
+      (PP 
+        (IN  as)
+        (NP 
+          (DT  a)
+          (NN  whole))))
+    (PRN 
+      (,  ,)
+      (S 
+        (NP 
+          (NNP  Mr.)
+          (NNP  Lane))
+        (VBD  said))
+      (,  ,))
+    (NP 
+      (NP 
+        (DT  the)
+        (NNS  filings))
+      (VP 
+        (VBN  required)
+        (PP 
+          (IN  under)
+          (NP 
+            (DT  the)
+            (VBN  proposed)
+            (NNS  rules)))))
+    (``  ``)
+    (VP 
+      (MD  will)
+      (VP 
+        (VB  be)
+        (ADJP 
+          (ADVP 
+            (IN  at)
+            (RBS  least)
+            (IN  as))
+          (JJ  effective)
+          (PRN 
+            (,  ,)
+            (SBAR 
+              (IN  if)
+              (FRAG 
+                (RB  not)
+                (ADVP 
+                  (RBR  more)
+                  (RB  so))))
+            (,  ,)))
+        (PP 
+          (IN  for)
+          (NP 
+            (NNS  investors)
+            (VP 
+              (VBG  following)
+              (NNS  transactions))))))
+    (.  .)
+    (''  '')))
+(TOP 
+  (S 
+    (CC  But)
+    (NP 
+      (NP 
+        (NNP  Robert)
+        (NNP  Gabele))
+      (,  ,)
+      (NP 
+        (NN  president)
+        (PP 
+          (IN  of)
+          (NP 
+            (NNP  Invest\/Net)
+            (,  ,)
+            (NP 
+              (NP 
+                (DT  a)
+                (NAC 
+                  (NNP  North)
+                  (NNP  Miami)
+                  (,  ,)
+                  (NNP  Fla.)
+                  (,  ,))
+                (NN  company))
+              (SBAR 
+                (WDT  that)
+                (VP 
+                  (VBZ  packages)
+                  (CC  and)
+                  (VBZ  sells)
+                  (NP 
+                    (DT  the)
+                    (NN  insider-trading)
+                    (NNS  data))))))))
+      (,  ,))
+    (VP 
+      (VBD  said)
+      (S 
+        (NP 
+          (DT  the)
+          (NN  proposal))
+        (VP 
+          (VBZ  is)
+          (VP 
+            (VBN  worded)
+            (ADVP 
+              (ADVP 
+                (RB  so)
+                (RB  vaguely))
+              (SBAR 
+                (IN  that)
+                (S 
+                  (NP 
+                    (JJ  key)
+                    (NNS  officials))
+                  (VP 
+                    (MD  may)
+                    (VP 
+                      (VB  fail)
+                      (VP 
+                        (TO  to)
+                        (VP 
+                          (VB  file)
+                          (NP 
+                            (DT  the)
+                            (NNS  reports)))))))))))))
+    (.  .)))
+(TOP 
+  (S 
+    (NP 
+      (JJ  Many)
+      (NNS  investors))
+    (VP 
+      (VBD  wrote)
+      (VP 
+        (VBG  asking)
+        (NP 
+          (DT  the)
+          (NNP  SEC))
+        (VP 
+          (TO  to)
+          (VP 
+            (VB  require)
+            (S 
+              (NNS  insiders)
+              (VP 
+                (TO  to)
+                (VP 
+                  (VB  report)
+                  (NP 
+                    (PRP$  their)
+                    (NNS  purchases)
+                    (CC  and)
+                    (NNS  sales))
+                  (ADVP 
+                    (RB  immediately)
+                    (,  ,)
+                    (RB  not)
+                    (ADVP 
+                      (NP 
+                        (DT  a)
+                        (NN  month))
+                      (RB  later))))))))))
+    (.  .)))
+(TOP 
+  (S 
+    (CC  But)
+    (NP 
+      (NNP  Mr.)
+      (NNP  Lane))
+    (VP 
+      (VBD  said)
+      (SBAR 
+        (IN  that)
+        (S 
+          (SBAR 
+            (IN  while)
+            (S 
+              (NP 
+                (DT  the)
+                (NNP  SEC))
+              (VP 
+                (VBZ  regulates)
+                (SBAR 
+                  (WP  who)
+                  (VBZ  files)))))
+          (,  ,)
+          (NP 
+            (DT  the)
+            (NN  law))
+          (VP 
+            (VBZ  tells)
+            (PRP  them)
+            (SBAR 
+              (WRB  when)
+              (VP 
+                (TO  to)
+                (VP 
+                  (VB  do)
+                  (RB  so))))))))
+    (.  .)))
+(TOP 
+  (S 
+    (S 
+      (NP 
+        (NNS  Investors)
+        (SBAR 
+          (WP  who)
+          (VP 
+            (VBP  want)
+            (VP 
+              (TO  to)
+              (VP 
+                (VB  change)
+                (NP 
+                  (DT  the)
+                  (JJ  required)
+                  (NN  timing)))))))
+      (VP 
+        (MD  should)
+        (VP 
+          (VB  write)
+          (NP 
+            (NP 
+              (PRP$  their)
+              (NNS  representatives))
+            (PP 
+              (IN  in)
+              (NNP  Congress))))))
+    (,  ,)
+    (PRP  he)
+    (VBD  added)
+    (.  .)))
+(TOP 
+  (S 
+    (S 
+      (NP 
+        (DT  The)
+        (NNP  SEC))
+      (VP 
+        (MD  would)
+        (RB  likely)
+        (VP 
+          (VB  be)
+          (ADJP 
+            (JJ  amenable)
+            (PP 
+              (TO  to)
+              (NP 
+                (NN  legislation)
+                (SBAR 
+                  (WDT  that)
+                  (VP 
+                    (VBD  required)
+                    (S 
+                      (NNS  insiders)
+                      (VP 
+                        (TO  to)
+                        (VP 
+                          (VB  file)
+                          (NNS  transactions)
+                          (PP 
+                            (IN  on)
+                            (NP 
+                              (DT  a)
+                              (ADJP 
+                                (RBR  more)
+                                (JJ  timely))
+                              (NN  basis))))))))))))))
+    (,  ,)
+    (PRP  he)
+    (VBD  said)
+    (.  .)))
+(TOP 
+  (S 
+    (NP 
+      (NP 
+        (NP 
+          (DT  The)
+          (NN  nation)
+          (POS  's))
+        (JJS  largest)
+        (NN  pension)
+        (NN  fund))
+      (,  ,)
+      (SBAR 
+        (WDT  which)
+        (VP 
+          (VBZ  oversees)
+          (QP 
+            ($  $)
+            (CD  80)
+            (CD  billion))
+          (PP 
+            (IN  for)
+            (NP 
+              (NN  college)
+              (NNS  employees)))))
+      (,  ,))
+    (VP 
+      (VBZ  plans)
+      (VP 
+        (TO  to)
+        (VP 
+          (VB  offer)
+          (NP 
+            (CD  two)
+            (JJ  new)
+            (NN  investment)
+            (NNS  options))
+          (PP 
+            (TO  to)
+            (NP 
+              (PRP$  its)
+              (QP 
+                (CD  1.2)
+                (CD  million))
+              (NNS  participants))))))
+    (.  .)))
+(TOP 
+  (S 
+    (NP 
+      (DT  The)
+      (NNPS  Teachers)
+      (NNP  Insurance)
+      (CC  and)
+      (NNP  Annuity)
+      (NNP  Association-College)
+      (NNP  Retirement)
+      (NNPS  Equities)
+      (NNP  Fund))
+    (VP 
+      (VBD  said)
+      (S 
+        (PRP  it)
+        (VP 
+          (MD  will)
+          (VP 
+            (VB  introduce)
+            (NP 
+              (NP 
+                (NP 
+                  (DT  a)
+                  (NN  stock)
+                  (CC  and)
+                  (NN  bond)
+                  (NN  fund))
+                (SBAR 
+                  (WDT  that)
+                  (VP 
+                    (MD  will)
+                    (VP 
+                      (VB  invest)
+                      (PP 
+                        (IN  in)
+                        (NP 
+                          (``  ``)
+                          (ADJP 
+                            (RB  socially)
+                            (JJ  responsible))
+                          (''  '')
+                          (NNS  companies)))))))
+              (,  ,)
+              (CC  and)
+              (NP 
+                (DT  a)
+                (NN  bond)
+                (NN  fund)))))))
+    (.  .)))
+(TOP 
+  (S 
+    (NP 
+      (DT  Both)
+      (NNS  funds))
+    (VP 
+      (VBP  are)
+      (VP 
+        (VBN  expected)
+        (VP 
+          (TO  to)
+          (VP 
+            (VB  begin)
+            (NN  operation)
+            (PP 
+              (IN  around)
+              (NP 
+                (NNP  March)
+                (CD  1)))
+            (,  ,)
+            (ADJP 
+              (JJ  subject)
+              (PP 
+                (TO  to)
+                (NP 
+                  (NNPS  Securities)
+                  (CC  and)
+                  (NNP  Exchange)
+                  (NNP  Commission)
+                  (NN  approval))))))))
+    (.  .)))
+(TOP 
+  (S 
+    (SBAR 
+      (IN  For)
+      (S 
+        (NP 
+          (PRP$  its)
+          (NNS  employees))
+        (VP 
+          (TO  to)
+          (VP 
+            (VB  sign)
+            (RP  up)
+            (PP 
+              (IN  for)
+              (NP 
+                (DT  the)
+                (NNS  options)))))))
+    (,  ,)
+    (NP 
+      (DT  a)
+      (NN  college))
+    (RB  also)
+    (VP 
+      (MD  must)
+      (VP 
+        (VB  approve)
+        (NP 
+          (DT  the)
+          (NN  plan))))
+    (.  .)))
+(TOP 
+  (S 
+    (NP 
+      (QP 
+        (DT  Some)
+        (CD  4,300))
+      (NNS  institutions))
+    (VP 
+      (VBP  are)
+      (NP 
+        (NN  part)
+        (PP 
+          (IN  of)
+          (NP 
+            (DT  the)
+            (NN  pension)
+            (NN  fund)))))
+    (.  .)))
+(TOP 
+  (S 
+    (NP 
+      (DT  The)
+      (JJ  new)
+      (NNS  options))
+    (VP 
+      (VBP  carry)
+      (RP  out)
+      (NP 
+        (NN  part)
+        (PP 
+          (IN  of)
+          (NP 
+            (NP 
+              (DT  an)
+              (NN  agreement))
+            (SBAR 
+              (IN  that)
+              (S 
+                (NP 
+                  (DT  the)
+                  (NN  pension)
+                  (NN  fund))
+                (,  ,)
+                (PP 
+                  (IN  under)
+                  (NP 
+                    (NN  pressure)
+                    (VP 
+                      (VP 
+                        (TO  to)
+                        (VP 
+                          (VB  relax)
+                          (NP 
+                            (PRP$  its)
+                            (JJ  strict)
+                            (NN  participation)
+                            (NNS  rules))))
+                      (CC  and)
+                      (VP 
+                        (TO  to)
+                        (VP 
+                          (VB  provide)
+                          (NP 
+                            (JJR  more)
+                            (NN  investment)
+                            (NNS  options)))))))
+                (,  ,)
+                (VP 
+                  (VBN  reached)
+                  (PP 
+                    (IN  with)
+                    (NP 
+                      (DT  the)
+                      (NNP  SEC)))
+                  (PP 
+                    (IN  in)
+                    (NNP  December)))))))))
+    (.  .)))
+(TOP 
+  (S 
+    (NP 
+      (DT  The)
+      (JJ  new)
+      (``  ``)
+      (JJ  social)
+      (NN  choice)
+      (''  '')
+      (NN  fund))
+    (VP 
+      (MD  will)
+      (VP 
+        (VB  shun)
+        (NP 
+          (NNS  securities)
+          (PP 
+            (IN  of)
+            (NP 
+              (NNS  companies)
+              (VP 
+                (VBN  linked)
+                (PP 
+                  (TO  to)
+                  (NP 
+                    (NP 
+                      (NNP  South)
+                      (NNP  Africa))
+                    (,  ,)
+                    (NP 
+                      (JJ  nuclear)
+                      (NN  power))
+                    (CC  and)
+                    (PP 
+                      (IN  in)
+                      (NP 
+                        (DT  some)
+                        (NNS  cases)))
+                    (,  ,)
+                    (NP 
+                      (NNP  Northern)
+                      (NNP  Ireland))))))))))
+    (.  .)))
+(TOP 
+  (SINV 
+    (RB  Also)
+    (VBN  excluded)
+    (VP 
+      (MD  will)
+      (VB  be))
+    (NP 
+      (NNS  investments)
+      (PP 
+        (IN  in)
+        (NP 
+          (NNS  companies)
+          (PP 
+            (IN  with)
+            (NP 
+              (NP 
+                (``  ``)
+                (JJ  significant)
+                (''  '')
+                (NN  business))
+              (VP 
+                (VBG  stemming)
+                (PP 
+                  (IN  from)
+                  (NP 
+                    (NP 
+                      (NNS  weapons)
+                      (NN  manufacture))
+                    (,  ,)
+                    (NP 
+                      (JJ  alcoholic)
+                      (NNS  beverages))
+                    (CC  or)
+                    (NN  tobacco)))))))))
+    (.  .)))
+(TOP 
+  (S 
+    (NP 
+      (NP 
+        (CD  Sixty)
+        (NN  percent))
+      (PP 
+        (IN  of)
+        (NP 
+          (DT  the)
+          (NN  fund))))
+    (VP 
+      (MD  will)
+      (VP 
+        (VB  be)
+        (VP 
+          (VBN  invested)
+          (PP 
+            (IN  in)
+            (NNS  stocks))
+          (,  ,)
+          (PP 
+            (IN  with)
+            (S 
+              (NP 
+                (DT  the)
+                (NN  rest))
+              (VP 
+                (VBG  going)
+                (PP 
+                  (IN  into)
+                  (NP 
+                    (NNS  bonds)
+                    (CC  or)
+                    (NP 
+                      (JJ  short-term)
+                      (NNS  investments))))))))))
+    (.  .)))
+(TOP 
+  (S 
+    (NP 
+      (DT  The)
+      (NN  bond)
+      (NN  fund))
+    (VP 
+      (MD  will)
+      (VP 
+        (VB  invest)
+        (PP 
+          (IN  in)
+          (NP 
+            (NP 
+              (ADJP 
+                (JJ  high-grade)
+                (CC  or)
+                (JJ  medium-grade))
+              (NNS  bonds))
+            (,  ,)
+            (NNS  mortgages)
+            (CC  or)
+            (NP 
+              (NP 
+                (JJ  asset-backed)
+                (NNS  securities))
+              (,  ,)
+              (PP 
+                (VBG  including)
+                (NP 
+                  (NP 
+                    (QP 
+                      (JJ  as)
+                      (RB  much)
+                      (IN  as)
+                      (CD  15))
+                    (NN  %))
+                  (PP 
+                    (IN  in)
+                    (NP 
+                      (JJ  foreign)
+                      (NNS  securities))))))))))
+    (.  .)))
+(TOP 
+  (S 
+    (NP 
+      (DT  The)
+      (NN  fund))
+    (RB  also)
+    (VP 
+      (MD  might)
+      (VP 
+        (VB  buy)
+        (CC  and)
+        (VB  sell)
+        (NP 
+          (NNS  futures)
+          (CC  and)
+          (NNS  options)
+          (NNS  contracts))
+        (,  ,)
+        (ADJP 
+          (JJ  subject)
+          (PP 
+            (TO  to)
+            (NP 
+              (NN  approval)
+              (PP 
+                (IN  by)
+                (NP 
+                  (DT  the)
+                  (NNP  New)
+                  (NNP  York)
+                  (NNP  State)
+                  (NNP  Insurance)
+                  (NNP  Department))))))))
+    (.  .)))
+(TOP 
+  (S 
+    (PP 
+      (IN  Under)
+      (NP 
+        (CD  two)
+        (JJ  new)
+        (NNS  features)))
+    (,  ,)
+    (NNS  participants)
+    (VP 
+      (MD  will)
+      (VP 
+        (VB  be)
+        (ADJP 
+          (JJ  able)
+          (VP 
+            (TO  to)
+            (VP 
+              (VP 
+                (VB  transfer)
+                (NN  money)
+                (PP 
+                  (IN  from)
+                  (NP 
+                    (DT  the)
+                    (JJ  new)
+                    (NNS  funds)))
+                (PP 
+                  (TO  to)
+                  (NP 
+                    (JJ  other)
+                    (NN  investment)
+                    (NNS  funds))))
+              (CC  or)
+              (VP 
+                (PRN 
+                  (,  ,)
+                  (SBAR 
+                    (IN  if)
+                    (S 
+                      (NP 
+                        (PRP$  their)
+                        (NNS  jobs))
+                      (VP 
+                        (VBP  are)
+                        (VBN  terminated))))
+                  (,  ,))
+                (VB  receive)
+                (NN  cash)
+                (PP 
+                  (IN  from)
+                  (NP 
+                    (DT  the)
+                    (NNS  funds)))))))))
+    (.  .)))
+(TOP 
+  (S 
+    (NP 
+      (NP 
+        (DT  The)
+        (NN  investment)
+        (NNS  choices))
+      (VP 
+        (VBN  offered)
+        (PP 
+          (IN  by)
+          (NP 
+            (DT  the)
+            (NN  pension)
+            (NN  fund)))))
+    (RB  currently)
+    (VP 
+      (VBP  are)
+      (VP 
+        (VBN  limited)
+        (PP 
+          (TO  to)
+          (NP 
+            (NP 
+              (DT  a)
+              (NN  stock)
+              (NN  fund))
+            (,  ,)
+            (NP 
+              (DT  an)
+              (NN  annuity))
+            (CC  and)
+            (NP 
+              (DT  a)
+              (NN  money-market)
+              (NN  fund))))))
+    (.  .)))
+(TOP 
+  (S 
+    (NP 
+      (NP 
+        (NNP  New)
+        (NNP  Brunswick)
+        (NNP  Scientific)
+        (NNP  Co.))
+      (,  ,)
+      (NP 
+        (NP 
+          (DT  a)
+          (NN  maker))
+        (PP 
+          (IN  of)
+          (NP 
+            (NN  biotechnology)
+            (NN  instrumentation)
+            (CC  and)
+            (NN  equipment))))
+      (,  ,))
+    (VP 
+      (VBD  said)
+      (S 
+        (PRP  it)
+        (VP 
+          (VBD  adopted)
+          (NP 
+            (NP 
+              (DT  an)
+              (JJ  anti-takeover)
+              (NN  plan))
+            (VP 
+              (VBG  giving)
+              (NNS  shareholders)
+              (NP 
+                (DT  the)
+                (NN  right)
+                (VP 
+                  (TO  to)
+                  (VP 
+                    (VB  purchase)
+                    (NNS  shares)
+                    (PP 
+                      (IN  at)
+                      (NP 
+                        (JJ  half)
+                        (NN  price)))
+                    (PP 
+                      (IN  under)
+                      (NP 
+                        (JJ  certain)
+                        (NNS  conditions)))))))))))
+    (.  .)))
+(TOP 
+  (S 
+    (NP 
+      (DT  The)
+      (NN  company))
+    (VP 
+      (VBD  said)
+      (S 
+        (NP 
+          (DT  the)
+          (NN  plan))
+        (,  ,)
+        (S 
+          (PP 
+            (IN  under)
+            (NN  review))
+          (PP 
+            (IN  for)
+            (NP 
+              (DT  some)
+              (NN  time))))
+        (,  ,)
+        (VP 
+          (MD  will)
+          (VP 
+            (VB  protect)
+            (NNS  shareholders)
+            (PP 
+              (IN  against)
+              (``  ``)
+              (NP 
+                (JJ  abusive)
+                (NN  takeover)
+                (NNS  tactics)))))))
+    (.  .)))
+(TOP 
+  (S 
+    (NP 
+      (NP 
+        (NNP  W.)
+        (NNP  Ed)
+        (NNP  Tyler))
+      (,  ,)
+      (ADJP 
+        (NP 
+          (CD  37)
+          (NNS  years))
+        (JJ  old))
+      (,  ,)
+      (NP 
+        (NP 
+          (DT  a)
+          (JJ  senior)
+          (NN  vice)
+          (NN  president))
+        (PP 
+          (IN  at)
+          (NP 
+            (DT  this)
+            (VBG  printing)
+            (NN  concern))))
+      (,  ,))
+    (VP 
+      (VBD  was)
+      (VP 
+        (VBN  elected)
+        (NP 
+          (NP 
+            (NN  president)
+            (PP 
+              (IN  of)
+              (NP 
+                (PRP$  its)
+                (NN  technology)
+                (NN  group))))
+          (,  ,)
+          (NP 
+            (DT  a)
+            (JJ  new)
+            (NN  position)))))
+    (.  .)))
+(TOP 
+  (S 
+    (NP 
+      (JJ  Solo)
+      (NN  woodwind)
+      (NNS  players))
+    (VP 
+      (VBP  have)
+      (VP 
+        (TO  to)
+        (VP 
+          (VB  be)
+          (JJ  creative)))
+      (SBAR 
+        (IN  if)
+        (S 
+          (PRP  they)
+          (VP 
+            (VBP  want)
+            (VP 
+              (TO  to)
+              (VP 
+                (VB  work)
+                (NP 
+                  (DT  a)
+                  (NN  lot)))))))
+      (,  ,)
+      (SBAR 
+        (IN  because)
+        (S 
+          (NP 
+            (PRP$  their)
+            (NN  repertoire)
+            (CC  and)
+            (NN  audience)
+            (NN  appeal))
+          (VP 
+            (VBP  are)
+            (JJ  limited)))))
+    (.  .)))
+(TOP 
+  (S 
+    (S 
+      (NP 
+        (DT  The)
+        (NN  oboist)
+        (NNP  Heinz)
+        (NNP  Holliger))
+      (VP 
+        (VBZ  has)
+        (VP 
+          (VBN  taken)
+          (NP 
+            (DT  a)
+            (JJ  hard)
+            (NN  line))
+          (PP 
+            (IN  about)
+            (NP 
+              (DT  the)
+              (NN  problem))))))
+    (:  :)
+    (S 
+      (PRP  He)
+      (VP 
+        (VP 
+          (VBZ  commissions)
+          (CC  and)
+          (VP 
+            (RB  splendidly)
+            (VBZ  interprets))
+          (NP 
+            (JJ  fearsome)
+            (JJ  contemporary)
+            (NNS  scores)))
+        (CC  and)
+        (VP 
+          (VBZ  does)
+          (NP 
+            (DT  some)
+            (NN  conducting)))
+        (,  ,)
+        (SBAR 
+          (IN  so)
+          (S 
+            (PRP  he)
+            (VP 
+              (VBZ  does)
+              (RB  n't)
+              (VP 
+                (VB  have)
+                (VP 
+                  (TO  to)
+                  (VP 
+                    (VB  play)
+                    (NP 
+                      (DT  the)
+                      (JJ  same)
+                      (NNP  Mozart)
+                      (CC  and)
+                      (NNP  Strauss)
+                      (NNS  concertos))
+                    (ADVP 
+                      (RB  over)
+                      (CC  and)
+                      (RB  over))
+                    (RB  again)))))))))
+    (.  .)))
+(TOP 
+  (S 
+    (NP 
+      (NNP  Richard)
+      (NNP  Stoltzman))
+    (VP 
+      (VBZ  has)
+      (VP 
+        (VBN  taken)
+        (NP 
+          (DT  a)
+          (JJR  gentler)
+          (,  ,)
+          (ADJP 
+            (RBR  more)
+            (JJ  audience-friendly))
+          (NN  approach))))
+    (.  .)))
+(TOP 
+  (S 
+    (ADVP 
+      (NNS  Years)
+      (RB  ago))
+    (,  ,)
+    (PRP  he)
+    (VP 
+      (VBD  collaborated)
+      (PP 
+        (IN  with)
+        (NP 
+          (NP 
+            (DT  the)
+            (JJ  new)
+            (NN  music)
+            (NNS  gurus))
+          (NP 
+            (NP 
+              (NNP  Peter)
+              (NNP  Serkin))
+            (CC  and)
+            (NP 
+              (NNP  Fred)
+              (NNP  Sherry)))))
+      (PP 
+        (IN  in)
+        (NP 
+          (NP 
+            (NP 
+              (DT  the)
+              (ADJP 
+                (RB  very)
+                (JJ  countercultural))
+              (NN  chamber)
+              (NN  group))
+            (NNP  Tashi))
+          (,  ,)
+          (SBAR 
+            (WDT  which)
+            (VP 
+              (VBD  won)
+              (NNS  audiences)
+              (ADVP 
+                (RP  over)
+                (PP 
+                  (TO  to)
+                  (NP 
+                    (NP 
+                      (JJ  dreaded)
+                      (JJ  contemporary)
+                      (NNS  scores))
+                    (PP 
+                      (IN  like)
+                      (NP 
+                        (NP 
+                          (NNP  Messiaen)
+                          (POS  's))
+                        (``  ``)
+                        (NX 
+                          (NN  Quartet)
+                          (PP 
+                            (IN  for)
+                            (NP 
+                              (NP 
+                                (DT  the)
+                                (NN  End))
+                              (PP 
+                                (IN  of)
+                                (NN  Time)))))))))))))))
+    (.  .)
+    (''  '')))
+(TOP 
+  (S 
+    (NN  Today)
+    (,  ,)
+    (NP 
+      (DT  the)
+      (JJ  pixie-like)
+      (NN  clarinetist))
+    (VP 
+      (VP 
+        (VBZ  has)
+        (RB  mostly)
+        (VP 
+          (VBN  dropped)
+          (NP 
+            (DT  the)
+            (JJ  missionary)
+            (NN  work))
+          (PRN 
+            (-LRB-  -LRB-)
+            (SBAR 
+              (IN  though)
+              (S 
+                (NP 
+                  (NP 
+                    (DT  a)
+                    (NN  touch))
+                  (PP 
+                    (IN  of)
+                    (NP 
+                      (DT  the)
+                      (JJ  old)
+                      (NNP  Tashi))))
+                (RB  still)
+                (VBZ  survives)))
+            (-RRB-  -RRB-))))
+      (CC  and)
+      (RB  now)
+      (VP 
+        (VBZ  goes)
+        (PP 
+          (IN  on)
+          (NP 
+            (DT  the)
+            (NN  road)))
+        (PP 
+          (IN  with)
+          (NP 
+            (NN  piano)
+            (,  ,)
+            (NN  bass)
+            (,  ,)
+            (NP 
+              (DT  a)
+              (NN  slide)
+              (NN  show))
+            (,  ,)
+            (CC  and)
+            (NP 
+              (NP 
+                (DT  a)
+                (NN  repertoire))
+              (SBAR 
+                (WDT  that)
+                (VP 
+                  (VBZ  ranges)
+                  (PP 
+                    (PP 
+                      (IN  from)
+                      (NP 
+                        (JJ  light)
+                        (JJ  classical)))
+                    (PP 
+                      (TO  to)
+                      (NP 
+                        (JJ  light)
+                        (NN  jazz)))
+                    (PP 
+                      (TO  to)
+                      (NP 
+                        (JJ  light)
+                        (NN  pop))))
+                  (,  ,)
+                  (PP 
+                    (IN  with)
+                    (NP 
+                      (DT  a)
+                      (JJ  few)
+                      (JJ  notable)
+                      (NNS  exceptions))))))))))
+    (.  .)))
+(TOP 
+  (FRAG 
+    (NP 
+      (RB  Just)
+      (DT  the)
+      (NN  thing))
+    (PP 
+      (IN  for)
+      (NP 
+        (NP 
+          (DT  the)
+          (JJ  Vivaldi-at-brunch)
+          (NN  set))
+        (,  ,)
+        (NP 
+          (NP 
+            (DT  the)
+            (NN  yuppie)
+            (NN  audience))
+          (SBAR 
+            (WDT  that)
+            (VP 
+              (VBZ  has)
+              (VP 
+                (VBN  embraced)
+                (NP 
+                  (NNP  New)
+                  (NNP  Age))
+                (PP 
+                  (IN  as)
+                  (NP 
+                    (PRP$  its)
+                    (ADJP 
+                      (RB  very)
+                      (JJ  own))
+                    (JJ  easy)
+                    (NN  listening)))))))))
+    (.  .)))
+(TOP 
+  (S 
+    (CC  But)
+    (PRP  you)
+    (VP 
+      (MD  ca)
+      (RB  n't)
+      (VP 
+        (VB  dismiss)
+        (NP 
+          (NP 
+            (NP 
+              (NNP  Mr.)
+              (NNP  Stoltzman)
+              (POS  's))
+            (NN  music))
+          (CC  or)
+          (NP 
+            (PRP$  his)
+            (NNS  motives)))
+        (PP 
+          (RB  as)
+          (ADJP 
+            (RB  merely)
+            (JJ  commercial)
+            (CC  and)
+            (JJ  lightweight)))))
+    (.  .)))
+(TOP 
+  (S 
+    (S 
+      (PRP  He)
+      (VP 
+        (VBZ  believes)
+        (PP 
+          (IN  in)
+          (SBAR 
+            (WP  what)
+            (S 
+              (PRP  he)
+              (VBZ  plays))))))
+    (,  ,)
+    (CC  and)
+    (S 
+      (PRP  he)
+      (VP 
+        (VBZ  plays)
+        (RB  superbly)))
+    (.  .)))
+(TOP 
+  (S 
+    (NP 
+      (NP 
+        (PRP$  His)
+        (JJ  recent)
+        (NN  appearance))
+      (PP 
+        (IN  at)
+        (NP 
+          (DT  the)
+          (NNP  Metropolitan)
+          (NNP  Museum)))
+      (,  ,)
+      (VP 
+        (VBN  dubbed)
+        (S 
+          (``  ``)
+          (NP 
+            (DT  A)
+            (JJ  Musical)
+            (NN  Odyssey))
+          (,  ,)
+          (''  ''))))
+    (VP 
+      (VBD  was)
+      (NP 
+        (NP 
+          (DT  a)
+          (NN  case))
+        (PP 
+          (IN  in)
+          (NN  point))))
+    (.  .)))
+(TOP 
+  (S 
+    (PRP  It)
+    (VP 
+      (VBD  felt)
+      (PP 
+        (PP 
+          (RBR  more)
+          (IN  like)
+          (NP 
+            (NP 
+              (DT  a)
+              (NN  party))
+            (,  ,)
+            (CC  or)
+            (NP 
+              (NP 
+                (DT  a)
+                (ADJP 
+                  (RB  highly)
+                  (JJ  polished))
+                (NN  jam)
+                (NN  session))
+              (PP 
+                (IN  with)
+                (NP 
+                  (DT  a)
+                  (JJ  few)
+                  (NNS  friends))))
+            (,  ,)))
+        (PP 
+          (IN  than)
+          (NP 
+            (DT  a)
+            (JJ  classical)
+            (NN  concert)))))
+    (.  .)))
+(TOP 
+  (S 
+    (VP 
+      (VBN  Clad)
+      (PP 
+        (IN  in)
+        (NP 
+          (PRP$  his)
+          (NN  trademark)
+          (JJ  black)
+          (NN  velvet)
+          (NN  suit))))
+    (,  ,)
+    (NP 
+      (DT  the)
+      (JJ  soft-spoken)
+      (NN  clarinetist))
+    (VP 
+      (VBD  announced)
+      (SBAR 
+        (SBAR 
+          (IN  that)
+          (S 
+            (NP 
+              (NP 
+                (PRP$  his)
+                (JJ  new)
+                (NN  album))
+              (,  ,)
+              (``  ``)
+              (NP 
+                (JJ  Inner)
+                (NNS  Voices))
+              (,  ,)
+              (''  ''))
+            (VP 
+              (VBD  had)
+              (RB  just)
+              (VP 
+                (VBN  been)
+                (VBN  released)))))
+        (,  ,)
+        (SBAR 
+          (IN  that)
+          (S 
+            (NP 
+              (PRP$  his)
+              (NN  family))
+            (VP 
+              (VBD  was)
+              (PP 
+                (IN  in)
+                (NP 
+                  (DT  the)
+                  (NN  front)
+                  (NN  row))))))
+        (,  ,)
+        (CC  and)
+        (SBAR 
+          (IN  that)
+          (S 
+            (S 
+              (PRP  it)
+              (VP 
+                (VBD  was)
+                (NP 
+                  (NP 
+                    (PRP$  his)
+                    (NN  mother)
+                    (POS  's))
+                  (NN  birthday))))
+            (,  ,)
+            (RB  so)
+            (S 
+              (PRP  he)
+              (VP 
+                (VBD  was)
+                (VP 
+                  (VBG  going)
+                  (VP 
+                    (TO  to)
+                    (VP 
+                      (VB  play)
+                      (NP 
+                        (NP 
+                          (PRP$  her)
+                          (JJ  favorite)
+                          (NN  tune))
+                        (PP 
+                          (IN  from)
+                          (NP 
+                            (DT  the)
+                            (NN  record)))))))))))))
+    (.  .)))
+(TOP 
+  (S 
+    (PRP  He)
+    (VP 
+      (VBD  launched)
+      (PP 
+        (IN  into)
+        (NP 
+          (NP 
+            (NP 
+              (NP 
+                (NNP  Saint-Saens)
+                (POS  's))
+              (``  ``)
+              (NX 
+                (DT  The)
+                (NN  Swan))
+              (''  ''))
+            (PP 
+              (IN  from)
+              (``  ``)
+              (NP 
+                (NN  Carnival)
+                (PP 
+                  (IN  of)
+                  (NP 
+                    (DT  the)
+                    (NNS  Animals))))))
+          (,  ,)
+          (''  '')
+          (NP 
+            (NP 
+              (DT  a)
+              (JJ  favorite)
+              (NN  encore)
+              (NN  piece))
+            (PP 
+              (IN  for)
+              (NNS  cellists)))
+          (,  ,)))
+      (PP 
+        (IN  with)
+        (NP 
+          (NP 
+            (JJ  lovely)
+            (,  ,)
+            (JJ  glossy)
+            (NN  tone))
+          (CC  and)
+          (NP 
+            (DT  no)
+            (NN  bite)))))
+    (.  .)))
+(TOP 
+  (S 
+    (RB  Then)
+    (,  ,)
+    (SBAR 
+      (IN  as)
+      (IN  if)
+      (VP 
+        (TO  to)
+        (VP 
+          (VB  show)
+          (SBAR 
+            (IN  that)
+            (S 
+              (PRP  he)
+              (VP 
+                (MD  could)
+                (VP 
+                  (VB  play)
+                  (RB  fast)
+                  (ADVP 
+                    (IN  as)
+                    (RB  well)))))))))
+    (,  ,)
+    (PRP  he)
+    (VP 
+      (VBD  offered)
+      (NP 
+        (NP 
+          (NP 
+            (DT  the)
+            (JJ  second)
+            (NN  movement))
+          (PP 
+            (IN  from)
+            (NP 
+              (NP 
+                (NNP  Saint-Saens)
+                (POS  's))
+              (NX 
+                (NN  Sonata)
+                (PP 
+                  (IN  for)
+                  (NN  Clarinet))))))
+        (,  ,)
+        (NP 
+          (NP 
+            (DT  a)
+            (JJ  whimsical)
+            (,  ,)
+            (JJ  puckish)
+            (NN  tidbit))
+          (SBAR 
+            (WDT  that)
+            (VP 
+              (VBD  reflected)
+              (NP 
+                (NP 
+                  (DT  the)
+                  (JJ  flip)
+                  (NN  side))
+                (PP 
+                  (IN  of)
+                  (NP 
+                    (DT  the)
+                    (NNP  Stoltzman)
+                    (NN  personality)))))))))
+    (.  .)))
+(TOP 
+  (UCP 
+    (S 
+      (CC  And)
+      (RB  so)
+      (PRP  it)
+      (VP 
+        (VBD  went)
+        (PP 
+          (IN  through)
+          (NP 
+            (DT  the)
+            (JJ  first)
+            (NN  half)))))
+    (:  :)
+    (NP 
+      (NP 
+        (DT  an)
+        (ADJP 
+          (RB  ingeniously)
+          (VBN  chosen))
+        (NN  potpourri))
+      (PP 
+        (IN  of)
+        (NP 
+          (NNS  pieces)
+          (,  ,)
+          (NP 
+            (NP 
+              (NN  none)
+              (ADJP 
+                (JJR  longer)
+                (PP 
+                  (IN  than)
+                  (NP 
+                    (CD  five)
+                    (NNS  minutes)))))
+            (,  ,)
+            (NP 
+              (NN  none)
+              (SBAR 
+                (WDT  that)
+                (VP 
+                  (MD  would)
+                  (VP 
+                    (VB  disturb)
+                    (CC  or)
+                    (VB  challenge)
+                    (NP 
+                      (DT  a)
+                      (NN  listener))))))))))
+    (.  .)))
+(TOP 
+  (S 
+    (NP 
+      (NNP  Mr.)
+      (NNP  Stoltzman))
+    (VP 
+      (VBD  introduced)
+      (NP 
+        (NP 
+          (PRP$  his)
+          (NNS  colleagues))
+        (:  :)
+        (NP 
+          (NP 
+            (NP 
+              (NNP  Bill)
+              (NNP  Douglas))
+            (,  ,)
+            (NP 
+              (NN  pianist\/bassoonist\/composer)
+              (CC  and)
+              (NP 
+                (NP 
+                  (DT  an)
+                  (JJ  old)
+                  (NN  buddy))
+                (PP 
+                  (IN  from)
+                  (NNP  Yale)))))
+          (,  ,)
+          (CC  and)
+          (NP 
+            (NN  jazz)
+            (NN  bassist)
+            (NNP  Eddie)
+            (NNP  Gomez)))))
+    (.  .)))
+(TOP 
+  (S 
+    (NP 
+      (DT  An)
+      (JJ  improvisational)
+      (NN  section))
+    (VP 
+      (VBD  was)
+      (VP 
+        (VBN  built)
+        (PP 
+          (IN  around)
+          (NP 
+            (NNS  pieces)
+            (PP 
+              (IN  by)
+              (NP 
+                (NNP  Mr.)
+                (NNP  Douglas)))))
+        (,  ,)
+        (PP 
+          (NN  beginning)
+          (PP 
+            (IN  with)
+            (NP 
+              (``  ``)
+              (NP 
+                (JJ  Golden)
+                (NN  Rain))
+              (,  ,)
+              (''  '')
+              (NP 
+                (NP 
+                  (DT  a)
+                  (JJ  lilting)
+                  (,  ,)
+                  (JJ  laid-back)
+                  (NN  lead))
+                (PP 
+                  (IN  in)
+                  (PP 
+                    (TO  to)
+                    (NP 
+                      (NP 
+                        (DT  the)
+                        (JJ  uptempo)
+                        (``  ``)
+                        (NN  Sky))
+                      (,  ,)
+                      (''  '')
+                      (SBAR 
+                        (WDT  which)
+                        (VP 
+                          (VBD  gave)
+                          (NP 
+                            (NNP  Mr.)
+                            (NNP  Stoltzman))
+                          (NP 
+                            (DT  the)
+                            (NN  opportunity)
+                            (VP 
+                              (TO  to)
+                              (VP 
+                                (VP 
+                                  (VB  wail)
+                                  (PP 
+                                    (IN  in)
+                                    (NP 
+                                      (DT  a)
+                                      (JJ  high)
+                                      (NN  register))))
+                                (CC  and)
+                                (VP 
+                                  (VB  show)
+                                  (RP  off)
+                                  (NP 
+                                    (PRP$  his)
+                                    (JJ  fleet)
+                                    (NNS  fingers)))))))))))))))))
+    (.  .)))
+(TOP 
+  (S 
+    (NP 
+      (NP 
+        (NNP  Bach)
+        (POS  's))
+      (``  ``)
+      (NN  Air)
+      (''  ''))
+    (VBD  followed)
+    (.  .)))
+(TOP 
+  (S 
+    (NP 
+      (NNP  Mr.)
+      (NNP  Stoltzman))
+    (VP 
+      (VP 
+        (VBD  tied)
+        (NP 
+          (DT  the)
+          (NN  composer))
+        (RP  in)
+        (PP 
+          (IN  by)
+          (VP 
+            (VBG  proclaiming)
+            (S 
+              (PRP  him)
+              (``  ``)
+              (NP 
+                (NP 
+                  (DT  the)
+                  (JJ  great)
+                  (NN  improviser))
+                (PP 
+                  (IN  of)
+                  (NP 
+                    (DT  the)
+                    (JJ  18th)
+                    (NN  century))))))))
+      (,  ,)
+      (''  '')
+      (CC  and)
+      (RB  then)
+      (VP 
+        (VBD  built)
+        (PP 
+          (IN  on)
+          (NP 
+            (DT  the)
+            (NN  image)))
+        (PP 
+          (IN  by)
+          (VP 
+            (VBG  joining)
+            (PP 
+              (IN  with)
+              (NP 
+                (NNP  Mr.)
+                (NNP  Douglas)))
+            (PP 
+              (IN  in)
+              (NP 
+                (NP 
+                  (DT  some)
+                  (NNP  Bach)
+                  (JJ  two-part)
+                  (NNS  inventions))
+                (,  ,)
+                (VP 
+                  (RB  cleverly)
+                  (VBN  arranged)
+                  (PP 
+                    (IN  for)
+                    (NP 
+                      (NN  clarinet)
+                      (CC  and)
+                      (NN  bassoon)))
+                  (PP 
+                    (IN  by)
+                    (NP 
+                      (NNP  Mr.)
+                      (NNP  Douglas))))))))))
+    (.  .)))
+(TOP 
+  (S 
+    (VP 
+      (VBG  Keeping)
+      (S 
+        (NP 
+          (DT  the)
+          (NN  mood))
+        (JJ  light)))
+    (,  ,)
+    (NP 
+      (DT  the)
+      (CD  two))
+    (RB  then)
+    (VP 
+      (VP 
+        (VBD  chanted)
+        (CC  and)
+        (VBD  chortled)
+        (NP 
+          (PRP$  their)
+          (NN  way))
+        (PP 
+          (IN  through)
+          (NP 
+            (NP 
+              (DT  some)
+              (JJ  murderous)
+              (NNS  polyrhythms))
+            (,  ,)
+            (VP 
+              (VBN  devised)
+              (PP 
+                (IN  by)
+                (NP 
+                  (NNP  Mr.)
+                  (NNP  Douglas)))
+              (PP 
+                (IN  as)
+                (NP 
+                  (NP 
+                    (DT  an)
+                    (NN  alternative))
+                  (PP 
+                    (TO  to)
+                    (NP 
+                      (NP 
+                        (NNP  Hindemith)
+                        (POS  's))
+                      (JJ  dry)
+                      (VBG  theory-teaching)
+                      (NNS  techniques)))))))))
+      (,  ,)
+      (CC  and)
+      (RB  then)
+      (,  ,)
+      (VP 
+        (PP 
+          (IN  with)
+          (NP 
+            (NNP  Mr.)
+            (NNP  Gomez)))
+        (,  ,)
+        (VBD  soared)
+        (CC  and)
+        (VP 
+          (VBD  improvised)
+          (PP 
+            (IN  on)
+            (NP 
+              (NP 
+                (DT  the)
+                (NN  composer)
+                (POS  's))
+              (JJ  tight)
+              (``  ``)
+              (NX 
+                (NNP  Bebop)
+                (NNP  Etudes)))))))
+    (.  .)
+    (''  '')))
+(TOP 
+  (S 
+    (NP 
+      (NP 
+        (DT  The)
+        (NN  end))
+      (PP 
+        (IN  of)
+        (NP 
+          (DT  the)
+          (JJ  first)
+          (NN  half))))
+    (,  ,)
+    (RB  however)
+    (,  ,)
+    (VP 
+      (VBD  brought)
+      (NP 
+        (SBAR 
+          (WP  what)
+          (S 
+            (NP 
+              (DT  the)
+              (JJ  standing-room-only)
+              (NN  crowd))
+            (VP 
+              (VBD  seemed)
+              (VP 
+                (TO  to)
+                (VP 
+                  (VB  be)
+                  (VP 
+                    (VBG  waiting)
+                    (IN  for)))))))
+        (:  :)
+        (NP 
+          (NP 
+            (NP 
+              (DT  the)
+              (NN  pop)
+              (NN  singer))
+            (NP 
+              (NNP  Judy)
+              (NNP  Collins)))
+          (,  ,)
+          (SBAR 
+            (WP  who)
+            (VP 
+              (VBZ  appears)
+              (PP 
+                (IN  on)
+                (``  ``)
+                (NP 
+                  (JJ  Inner)
+                  (NNS  Voices))))))))
+    (.  .)
+    (''  '')))
+(TOP 
+  (S 
+    (ADJP 
+      (ADJP 
+        (JJ  Glamorous)
+        (CC  and)
+        (JJ  pure-voiced))
+      (PP 
+        (IN  as)
+        (RB  ever)))
+    (,  ,)
+    (NP 
+      (NNP  Ms.)
+      (NNP  Collins))
+    (VP 
+      (VBD  sang)
+      (NP 
+        (NP 
+          (NP 
+            (NP 
+              (NNP  Joni)
+              (NNP  Mitchell)
+              (POS  's))
+            (``  ``)
+            (PP 
+              (IN  For)
+              (RB  Free))
+            (''  ''))
+          (PRN 
+            (:  --)
+            (PP 
+              (IN  about)
+              (NP 
+                (NP 
+                  (DT  an)
+                  (NN  encounter))
+                (PP 
+                  (IN  with)
+                  (NP 
+                    (DT  a)
+                    (JJ  street-corner)
+                    (NN  clarinetist)))))
+            (,  ,)
+            (SBAR 
+              (WHPP 
+                (TO  to)
+                (WDT  which))
+              (S 
+                (NP 
+                  (NNP  Mr.)
+                  (NNP  Stoltzman))
+                (VP 
+                  (VBD  contributed)
+                  (NP 
+                    (DT  a)
+                    (NN  clarinet)
+                    (NN  obligatto)))))
+            (:  --)))
+        (CC  and)
+        (NP 
+          (NP 
+            (NP 
+              (NNP  Mr.)
+              (NNP  Douglas)
+              (POS  's))
+            (JJ  lush)
+            (NN  setting))
+          (PP 
+            (IN  of)
+            (NP 
+              (NP 
+                (DT  a)
+                (JJ  Gaelic)
+                (NN  blessing))
+              (,  ,)
+              (``  ``)
+              (NP 
+                (JJ  Deep)
+                (NN  Peace)))))))
+    (.  .)
+    (''  '')))
+(TOP 
+  (S 
+    (``  ``)
+    (NP 
+      (JJ  Deep)
+      (NN  Peace))
+    (''  '')
+    (RB  also)
+    (VP 
+      (VBD  featured)
+      (NP 
+        (NP 
+          (DT  a)
+          (NN  slide)
+          (NN  show))
+        (PP 
+          (IN  of)
+          (NP 
+            (NP 
+              (ADJP 
+                (JJ  lovely)
+                (CC  but)
+                (JJ  predictable))
+              (NNS  images))
+            (PP 
+              (IN  of)
+              (NP 
+                (NNS  clouds)
+                (,  ,)
+                (NNS  beaches)
+                (,  ,)
+                (NNS  deserts)
+                (,  ,)
+                (NNS  sunsets)
+                (,  ,)
+                (FW  etc)))))))
+    (.  .)))
+(TOP 
+  (S 
+    (S 
+      (PRP  It)
+      (VP 
+        (VBD  was)
+        (ADJP 
+          (RB  all)
+          (RB  too)
+          (JJ  mellow)
+          (VP 
+            (TO  to)
+            (VP 
+              (VB  be)
+              (VBN  believed))))))
+    (,  ,)
+    (CC  but)
+    (S 
+      (PRP  they)
+      (RB  probably)
+      (VP 
+        (MD  would)
+        (VP 
+          (VB  have)
+          (VP 
+            (VBN  gotten)
+            (RP  away)
+            (PP 
+              (IN  with)
+              (PRP  it))
+            (,  ,)
+            (SINV 
+              (VBD  had)
+              (PRP  they)
+              (RB  not)
+              (VP 
+                (VBD  felt)
+                (VP 
+                  (VBN  compelled)
+                  (VP 
+                    (TO  to)
+                    (VP 
+                      (VP 
+                        (VB  add)
+                        (NP 
+                          (NP 
+                            (NP 
+                              (NNP  Ms.)
+                              (NNP  Collins)
+                              (POS  's))
+                            (NN  signature)
+                            (NN  tune))
+                          (,  ,)
+                          (``  ``)
+                          (NP 
+                            (JJ  Amazing)
+                            (NN  Grace))
+                          (,  ,)
+                          (''  '')))
+                      (CC  and)
+                      (VP 
+                        (VB  ask)
+                        (PP 
+                          (IN  for)
+                          (NP 
+                            (NN  audience)
+                            (NN  participation)))))))))))))
+    (.  .)))
+(TOP 
+  (S 
+    (WDT  That)
+    (VP 
+      (VBD  went)
+      (PP 
+        (IN  over)
+        (NP 
+          (NP 
+            (DT  the)
+            (JJ  permissible)
+            (NN  line))
+          (PP 
+            (IN  for)
+            (NP 
+              (ADJP 
+                (JJ  warm)
+                (CC  and)
+                (JJ  fuzzy))
+              (NNS  feelings))))))
+    (.  .)))
+(TOP 
+  (SQ 
+    (VBD  Was)
+    (DT  this)
+    (SBAR 
+      (WRB  why)
+      (S 
+        (NP 
+          (DT  some)
+          (PP 
+            (IN  of)
+            (NP 
+              (DT  the)
+              (NN  audience))))
+        (VP 
+          (VBD  departed)
+          (PP 
+            (IN  before)
+            (CC  or)
+            (IN  during)
+            (NP 
+              (DT  the)
+              (JJ  second)
+              (NN  half))))))
+    (.  ?)))
+(TOP 
+  (SQ 
+    (CC  Or)
+    (VBD  was)
+    (PRP  it)
+    (SBAR 
+      (IN  because)
+      (S 
+        (NP 
+          (NNP  Ms.)
+          (NNP  Collins))
+        (VP 
+          (VBD  had)
+          (VBN  gone))))
+    (.  ?)))
+(TOP 
+  (S 
+    (NP 
+      (DT  Either)
+      (NN  way))
+    (PRP  it)
+    (VP 
+      (VBD  was)
+      (NP 
+        (DT  a)
+        (NN  pity))
+      (,  ,)
+      (SBAR 
+        (IN  because)
+        (S 
+          (NP 
+            (NNP  Mr.)
+            (NNP  Stolzman))
+          (VP 
+            (VBD  offered)
+            (NP 
+              (NP 
+                (DT  the)
+                (ADJP 
+                  (RBS  most)
+                  (JJ  substantial))
+                (NN  music))
+              (PP 
+                (IN  of)
+                (NP 
+                  (DT  the)
+                  (NN  evening))))
+            (PP 
+              (RB  just)
+              (IN  after)
+              (NN  intermission))
+            (:  :)
+            (NP 
+              (NP 
+                (NP 
+                  (NNP  Steve)
+                  (NNP  Reich)
+                  (POS  's))
+                (``  ``)
+                (NX 
+                  (NNP  New)
+                  (NNP  York)
+                  (NN  Counterpoint)))
+              (,  ,)
+              (''  '')
+              (NP 
+                (CD  one)
+                (PP 
+                  (IN  of)
+                  (NP 
+                    (NP 
+                      (DT  a)
+                      (NN  series))
+                    (PP 
+                      (IN  of)
+                      (NP 
+                        (NP 
+                          (NNP  Reich)
+                          (NNS  works))
+                        (SBAR 
+                          (WDT  that)
+                          (VP 
+                            (VBP  juxtapose)
+                            (NP 
+                              (DT  a)
+                              (JJ  live)
+                              (NN  performer))
+                            (PP 
+                              (IN  with)
+                              (NP 
+                                (NP 
+                                  (JJ  recorded)
+                                  (NNS  tracks))
+                                (PP 
+                                  (IN  of)
+                                  (NP 
+                                    (ADJP 
+                                      (PRP$  his)
+                                      (CC  or)
+                                      (PRP$  her))
+                                    (JJ  own)
+                                    (NN  playing)))))))))))))))))
+    (.  .)))
+(TOP 
+  (S 
+    (-LRB-  -LRB-)
+    (NP 
+      (NP 
+        (NP 
+          (NNP  Mr.)
+          (NNP  Reich)
+          (POS  's))
+        (JJ  new)
+        (``  ``)
+        (NX 
+          (JJ  Different)
+          (NNS  Trains))
+        (''  ''))
+      (PP 
+        (IN  for)
+        (NP 
+          (NN  string)
+          (NN  quartet))))
+    (VP 
+      (VBZ  uses)
+      (NP 
+        (DT  the)
+        (NN  technique))
+      (RB  magisterially))
+    (.  .)
+    (-RRB-  -RRB-)))
+(TOP 
+  (S 
+    (S 
+      (NP 
+        (NNP  Mr.)
+        (NNP  Stoltzman))
+      (VP 
+        (MD  must)
+        (VP 
+          (VB  have)
+          (VP 
+            (VBN  worried)
+            (SBAR 
+              (IN  that)
+              (S 
+                (NP 
+                  (PRP$  his)
+                  (NN  audience))
+                (VP 
+                  (MD  might)
+                  (RB  not)
+                  (VP 
+                    (VB  be)
+                    (ADJP 
+                      (JJ  able)
+                      (VP 
+                        (TO  to)
+                        (VP 
+                          (VB  take)
+                          (PRP  it))))))))))))
+    (:  :)
+    (S 
+      (PRP  He)
+      (VP 
+        (VBD  warned)
+        (PRP  us)
+        (PP 
+          (IN  in)
+          (NN  advance))
+        (SBAR 
+          (IN  that)
+          (S 
+            (``  ``)
+            (NP 
+              (NNP  New)
+              (NNP  York)
+              (NN  Counterpoint))
+            (''  '')
+            (VP 
+              (VBZ  lasts)
+              (NP 
+                (QP 
+                  (CD  11)
+                  (CD  1\/2))
+                (NNS  minutes)))))))
+    (.  .)))
+(TOP 
+  (S 
+    (PRP  He)
+    (RB  also)
+    (RB  unfortunately)
+    (VP 
+      (VBD  illustrated)
+      (NP 
+        (DT  this)
+        (JJ  intricate)
+        (,  ,)
+        (JJ  jazzy)
+        (NN  tapestry))
+      (PP 
+        (IN  with)
+        (NP 
+          (NP 
+            (NP 
+              (NNP  Mr.)
+              (NNP  Pearson)
+              (POS  's))
+            (NNS  images))
+          (,  ,)
+          (NP 
+            (NP 
+              (DT  this)
+              (NN  time))
+            (PP 
+              (IN  of)
+              (NP 
+                (UCP 
+                  (JJ  geometric)
+                  (CC  or)
+                  (JJ  repeating))
+                (NNS  objects))))
+          (,  ,)))
+      (PP 
+        (IN  in)
+        (NP 
+          (NP 
+            (DT  a)
+            (JJ  kitschy)
+            (NN  mirroring))
+          (PP 
+            (IN  of)
+            (NP 
+              (DT  the)
+              (JJ  musical)
+              (NN  structure)))
+          (SBAR 
+            (WDT  that)
+            (VP 
+              (VBD  was)
+              (VP 
+                (RB  thoroughly)
+                (VBG  distracting)
+                (PP 
+                  (IN  from)
+                  (NP 
+                    (NP 
+                      (NP 
+                        (NNP  Mr.)
+                        (NNP  Reich)
+                        (POS  's))
+                      (NN  piece))
+                    (CC  and)
+                    (NP 
+                      (NP 
+                        (NP 
+                          (NNP  Mr.)
+                          (NNP  Stoltzman)
+                          (POS  's))
+                        (JJ  elegant)
+                        (NN  execution))
+                      (PP 
+                        (IN  of)
+                        (PRP  it)))))))))))
+    (.  .)))
+(TOP 
+  (S 
+    (NP 
+      (NP 
+        (DT  The)
+        (NN  rest))
+      (PP 
+        (IN  of)
+        (NP 
+          (DT  the)
+          (NN  concert))))
+    (VP 
+      (VBD  was)
+      (NP 
+        (NP 
+          (NP 
+            (NP 
+              (JJR  more)
+              (JJ  straight)
+              (NN  jazz))
+            (CC  and)
+            (NP 
+              (JJ  mellow)
+              (NNS  sounds)))
+          (VP 
+            (VBN  written)
+            (PP 
+              (IN  by)
+              (NP 
+                (NP 
+                  (NNP  Charlie)
+                  (NNP  Parker))
+                (,  ,)
+                (NP 
+                  (NNP  Ornette)
+                  (NNP  Coleman))
+                (,  ,)
+                (NP 
+                  (NNP  Bill)
+                  (NNP  Douglas))
+                (CC  and)
+                (NP 
+                  (NNP  Eddie)
+                  (NNP  Gomez))))))
+        (,  ,)
+        (PP 
+          (IN  with)
+          (NP 
+            (NNS  pictures)
+            (PP 
+              (IN  for)
+              (NP 
+                (DT  the)
+                (NNP  Douglas)
+                (NNS  pieces)))))))
+    (.  .)))
+(TOP 
+  (S 
+    (S 
+      (PRP  It)
+      (VP 
+        (VBD  was)
+        (JJ  enjoyable)
+        (VP 
+          (TO  to)
+          (VP 
+            (VB  hear)
+            (NP 
+              (JJ  accomplished)
+              (NN  jazz))
+            (PP 
+              (IN  without)
+              (VP 
+                (VBG  having)
+                (VP 
+                  (TO  to)
+                  (VP 
+                    (VB  sit)
+                    (PP 
+                      (IN  in)
+                      (NP 
+                        (DT  a)
+                        (JJ  smoke-filled)
+                        (NN  club)))))))))))
+    (,  ,)
+    (CC  but)
+    (S 
+      (PP 
+        (IN  like)
+        (NP 
+          (DT  the)
+          (JJ  first)
+          (NN  half)))
+      (,  ,)
+      (NP 
+        (JJ  much)
+        (PP 
+          (IN  of)
+          (PRP  it)))
+      (VP 
+        (VBD  was)
+        (ADJP 
+          (ADJP 
+            (JJ  easy)
+            (VP 
+              (TO  to)
+              (VB  take)))
+          (CC  and)
+          (ADJP 
+            (RB  ultimately)
+            (JJ  forgettable)))))
+    (.  .)))
+(TOP 
+  (SQ 
+    (VBZ  Is)
+    (DT  this)
+    (NP 
+      (NP 
+        (DT  the)
+        (NN  future))
+      (PP 
+        (IN  of)
+        (NP 
+          (NN  chamber)
+          (NN  music))))
+    (.  ?)))
+(TOP 
+  (S 
+    (S 
+      (NP 
+        (NNS  Managers)
+        (CC  and)
+        (NNS  presenters))
+      (VP 
+        (VBP  insist)
+        (SBAR 
+          (IN  that)
+          (S 
+            (NP 
+              (NN  chamber)
+              (NN  music)
+              (NNS  concerts))
+            (VP 
+              (VBP  are)
+              (NP 
+                (DT  a)
+                (JJ  hard)
+                (NN  sell)))))))
+    (,  ,)
+    (CC  but)
+    (SQ 
+      (MD  can)
+      (NNS  audiences)
+      (RB  really)
+      (VP 
+        (VB  enjoy)
+        (PRP  them)
+        (SBAR 
+          (RB  only)
+          (IN  if)
+          (S 
+            (NP 
+              (DT  the)
+              (NN  music))
+            (VP 
+              (VBZ  is)
+              (VP 
+                (VP 
+                  (VBN  purged)
+                  (PP 
+                    (IN  of)
+                    (NP 
+                      (JJ  threatening)
+                      (NNS  elements))))
+                (,  ,)
+                (VP 
+                  (VBN  served)
+                  (RP  up)
+                  (PP 
+                    (IN  in)
+                    (NP 
+                      (JJ  bite-sized)
+                      (NNS  morsels))))
+                (CC  and)
+                (VP 
+                  (VBN  accompanied)
+                  (PP 
+                    (IN  by)
+                    (NNS  visuals))))))))
+      (.  ?))))
+(TOP 
+  (SBARQ 
+    (WP  What)
+    (VP 
+      (VBZ  's)
+      (JJ  next))
+    (.  ?)))
+(TOP 
+  (FRAG 
+    (NP 
+      (NNS  Slides)
+      (VP 
+        (TO  to)
+        (VP 
+          (VB  illustrate)
+          (NP 
+            (NNP  Shostakovich)
+            (NNS  quartets)))))
+    (.  ?)))
+(TOP 
+  (S 
+    (PRP  It)
+    (VP 
+      (VBD  was)
+      (RB  not)
+      (NP 
+        (DT  an)
+        (JJ  unpleasant)
+        (NN  evening))
+      (,  ,)
+      (RB  certainly)
+      (,  ,)
+      (NP 
+        (NNS  thanks)
+        (PP 
+          (TO  to)
+          (NP 
+            (NP 
+              (NP 
+                (DT  the)
+                (JJ  high)
+                (NN  level))
+              (PP 
+                (IN  of)
+                (NN  performance)))
+            (,  ,)
+            (NP 
+              (NP 
+                (DT  the)
+                (JJ  compositional)
+                (NNS  talents))
+              (PP 
+                (IN  of)
+                (NP 
+                  (NNP  Mr.)
+                  (NNP  Douglas))))
+            (,  ,)
+            (CC  and)
+            (NP 
+              (NP 
+                (DT  the)
+                (JJ  obvious)
+                (NN  sincerity))
+              (SBAR 
+                (WHPP 
+                  (IN  with)
+                  (WDT  which))
+                (S 
+                  (NP 
+                    (NNP  Mr.)
+                    (NNP  Stoltzman))
+                  (VP 
+                    (VBZ  chooses)
+                    (NP 
+                      (PRP$  his)
+                      (NNS  selections))))))))))
+    (.  .)))
+(TOP 
+  (S 
+    (CC  But)
+    (PRP  it)
+    (VP 
+      (VBD  was)
+      (UCP 
+        (ADJP 
+          (RB  neither)
+          (JJ  deep)
+          (CC  nor)
+          (JJ  lasting))
+        (:  :)
+        (NP 
+          (NP 
+            (JJ  light)
+            (NN  entertainment))
+          (SBAR 
+            (WDT  that)
+            (VP 
+              (VBD  was)
+              (NP 
+                (NP 
+                  (DT  no)
+                  (NN  substitute))
+                (PP 
+                  (IN  for)
+                  (NP 
+                    (NP 
+                      (DT  an)
+                      (NN  evening))
+                    (PP 
+                      (IN  of)
+                      (NNP  Brahms))))))))))
+    (.  .)))
+(TOP 
+  (S 
+    (NP 
+      (NNP  Ms.)
+      (NNP  Waleson))
+    (VP 
+      (VBZ  is)
+      (NP 
+        (NP 
+          (DT  a)
+          (JJ  free-lance)
+          (NN  writer))
+        (VP 
+          (VBN  based)
+          (PP 
+            (IN  in)
+            (NP 
+              (NNP  New)
+              (NNP  York))))))
+    (.  .)))
+(TOP 
+  (S 
+    (NP 
+      (CD  One)
+      (PP 
+        (IN  of)
+        (NP 
+          (NP 
+            (NP 
+              (NNP  Ronald)
+              (NNP  Reagan)
+              (POS  's))
+            (NNS  attributes))
+          (PP 
+            (IN  as)
+            (NNP  President)))))
+    (VP 
+      (VBD  was)
+      (SBAR 
+        (IN  that)
+        (S 
+          (PRP  he)
+          (RB  rarely)
+          (VP 
+            (VBD  gave)
+            (NP 
+              (PRP$  his)
+              (NN  blessing))
+            (PP 
+              (TO  to)
+              (NP 
+                (NP 
+                  (DT  the)
+                  (NN  claptrap))
+                (SBAR 
+                  (WDT  that)
+                  (VP 
+                    (VBZ  passes)
+                    (PP 
+                      (IN  for)
+                      (``  ``)
+                      (NN  consensus)
+                      (''  ''))
+                    (PP 
+                      (IN  in)
+                      (NP 
+                        (JJ  various)
+                        (JJ  international)
+                        (NNS  institutions)))))))))))
+    (.  .)))
+(TOP 
+  (S 
+    (PP 
+      (IN  In)
+      (NN  fact))
+    (,  ,)
+    (PRP  he)
+    (VP 
+      (VBD  liberated)
+      (NP 
+        (DT  the)
+        (NNP  U.S.))
+      (PP 
+        (IN  from)
+        (NP 
+          (NP 
+            (CD  one)
+            (PP 
+              (IN  of)
+              (NP 
+                (NP 
+                  (DT  the)
+                  (NN  world)
+                  (VBZ  's))
+                (ADJP 
+                  (RBS  most)
+                  (JJ  corrupt))
+                (NNS  organizations))))
+          (:  --)
+          (NNP  UNESCO))))
+    (.  .)))
+(TOP 
+  (S 
+    (DT  This)
+    (VP 
+      (VBZ  is)
+      (NP 
+        (NP 
+          (DT  the)
+          (NNP  U.N.)
+          (NN  group))
+        (SBAR 
+          (WDT  that)
+          (VP 
+            (VBD  managed)
+            (VP 
+              (TO  to)
+              (VP 
+                (VB  traduce)
+                (NP 
+                  (NP 
+                    (PRP$  its)
+                    (JJ  own)
+                    (NN  charter))
+                  (PP 
+                    (IN  of)
+                    (VP 
+                      (VBG  promoting)
+                      (NP 
+                        (NN  education)
+                        (,  ,)
+                        (NN  science)
+                        (CC  and)
+                        (NN  culture)))))))))))
+    (.  .)))
+(TOP 
+  (S 
+    (ADVP 
+      (RB  Ever)
+      (IN  since))
+    (,  ,)
+    (NP 
+      (DT  the)
+      (VBG  remaining)
+      (NNS  members))
+    (VP 
+      (VBP  have)
+      (VP 
+        (VBN  been)
+        (ADJP 
+          (JJ  desperate)
+          (SBAR 
+            (IN  for)
+            (S 
+              (NP 
+                (DT  the)
+                (NNP  United)
+                (NNPS  States))
+              (VP 
+                (TO  to)
+                (VP 
+                  (VB  rejoin)
+                  (NP 
+                    (DT  this)
+                    (JJ  dreadful)
+                    (NN  group)))))))))
+    (.  .)))
+(TOP 
+  (S 
+    (RB  Now)
+    (NP 
+      (NNP  UNESCO)
+      (NNS  apologists))
+    (VP 
+      (VBP  are)
+      (VP 
+        (VBG  lobbying)
+        (NP 
+          (NNP  President)
+          (NNP  Bush))
+        (VP 
+          (TO  to)
+          (VP 
+            (VB  renege)
+            (PP 
+              (IN  on)
+              (NP 
+                (NP 
+                  (NNP  President)
+                  (NNP  Reagan)
+                  (POS  's))
+                (NN  decision)
+                (VP 
+                  (TO  to)
+                  (VB  depart))))))))
+    (.  .)))
+(TOP 
+  (S 
+    (CC  But)
+    (PRP  we)
+    (VP 
+      (MD  can)
+      (VP 
+        (VB  think)
+        (PP 
+          (IN  of)
+          (NP 
+            (NP 
+              (JJ  many)
+              (NNS  reasons))
+            (VP 
+              (TO  to)
+              (VP 
+                (VB  stay)
+                (RB  out)
+                (PP 
+                  (IN  for)
+                  (UCP 
+                    (NP 
+                      (DT  the)
+                      (JJ  foreseeable)
+                      (NN  future))
+                    (CC  and)
+                    (ADVP 
+                      (RB  well)
+                      (IN  beyond))))))))))
+    (.  .)))
+(TOP 
+  (S 
+    (NP 
+      (DT  The)
+      (NNP  U.S.))
+    (,  ,)
+    (PP 
+      (IN  along)
+      (PP 
+        (IN  with)
+        (NP 
+          (NNP  Britain)
+          (CC  and)
+          (NNP  Singapore))))
+    (,  ,)
+    (VP 
+      (VBD  left)
+      (NP 
+        (DT  the)
+        (NN  agency))
+      (SBAR 
+        (WRB  when)
+        (S 
+          (NP 
+            (PRP$  its)
+            (NX 
+              (NX 
+                (JJ  anti-Western)
+                (NN  ideology))
+              (,  ,)
+              (NX 
+                (JJ  financial)
+                (NN  corruption))
+              (CC  and)
+              (NX 
+                (JJ  top)
+                (NN  leadership))))
+          (VP 
+            (VBD  got)
+            (ADJP 
+              (IN  out)
+              (PP 
+                (IN  of)
+                (NN  hand)))))))
+    (.  .)))
+(TOP 
+  (S 
+    (NP 
+      (NP 
+        (DT  The)
+        (JJ  personal)
+        (NNS  antics))
+      (PP 
+        (IN  of)
+        (NP 
+          (NN  agency)
+          (NNP  Director)
+          (NNP  Amadou-Mahtar)
+          (NNP  M'Bow))))
+    (VP 
+      (VBD  drew)
+      (NP 
+        (JJ  much)
+        (NN  attention))
+      (,  ,)
+      (PP 
+        (JJ  such)
+        (IN  as)
+        (SBAR 
+          (SBAR 
+            (WRB  when)
+            (S 
+              (NP 
+                (JJ  several)
+                (PP 
+                  (IN  of)
+                  (NP 
+                    (PRP$  his)
+                    (JJ  top)
+                    (NNS  aides))))
+              (VP 
+                (VBD  were)
+                (VP 
+                  (VP 
+                    (VBN  uncovered)
+                    (PP 
+                      (IN  as)
+                      (NP 
+                        (NNP  KGB)
+                        (NNS  plants))))
+                  (CC  and)
+                  (VP 
+                    (VBN  ejected)
+                    (PP 
+                      (IN  from)
+                      (NNP  France)))))))
+          (CC  and)
+          (SBAR 
+            (WRB  when)
+            (S 
+              (NP 
+                (DT  a)
+                (JJ  mysterious)
+                (NN  office)
+                (NN  fire))
+              (VP 
+                (VBD  was)
+                (VP 
+                  (VBN  set)
+                  (SBAR 
+                    (RB  just)
+                    (IN  before)
+                    (S 
+                      (NNP  Congress)
+                      (VP 
+                        (VBD  sent)
+                        (NP 
+                          (NNS  accountants)
+                          (VP 
+                            (TO  to)
+                            (VP 
+                              (VB  trace)
+                              (NP 
+                                (NNP  U.S.)
+                                (NNS  funds)))))))))))))))
+    (.  .)))
+(TOP 
+  (S 
+    (S 
+      (NP 
+        (NNP  Mr.)
+        (NNP  M'Bow))
+      (VP 
+        (VBD  was)
+        (NP 
+          (DT  an)
+          (JJ  extreme)
+          (NN  case))))
+    (,  ,)
+    (CC  but)
+    (S 
+      (NP 
+        (NP 
+          (RB  even)
+          (PRP$  his)
+          (NN  replacement))
+        (,  ,)
+        (NP 
+          (NP 
+            (DT  the)
+            (ADJP 
+              (ADVP 
+                (RBR  more)
+                (RB  personally))
+              (JJ  genial))
+            (JJ  Spanish)
+            (NN  biochemist))
+          (NP 
+            (NNP  Federico)
+            (NNP  Mayor)))
+        (,  ,))
+      (VP 
+        (VBZ  has)
+        (VP 
+          (VBN  had)
+          (NP 
+            (JJ  little)
+            (NN  success))
+          (PP 
+            (IN  at)
+            (VP 
+              (VBG  achieving)
+              (NNS  reforms))))))
+    (.  .)))
+(TOP 
+  (S 
+    (NP 
+      (JJ  Several)
+      (JJ  ridiculous)
+      (NNS  projects))
+    (VP 
+      (VBP  continue)
+      (,  ,)
+      (PP 
+        (VBG  including)
+        (NP 
+          (NP 
+            (DT  the)
+            (``  ``)
+            (JJ  New)
+            (JJ  International)
+            (JJ  Economic)
+            (NN  Order))
+          (,  ,)
+          (''  '')
+          (SBAR 
+            (WDT  which)
+            (VP 
+              (VBZ  means)
+              (NP 
+                (NP 
+                  (NN  redistributionism)
+                  (PP 
+                    (IN  from)
+                    (NP 
+                      (DT  the)
+                      (NNP  West))))
+                (VP 
+                  (TO  to)
+                  (VP 
+                    (VB  pay)
+                    (PP 
+                      (IN  for)
+                      (NP 
+                        (NP 
+                          (NN  everyone)
+                          (RB  else)
+                          (POS  's))
+                        (NN  statism)))))))))))
+    (.  .)))

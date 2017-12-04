@@ -1,6 +1,4 @@
 class Tree
-  PAD_CHAR = "  "
-
   attr_accessor :head, :subtrees
 
   # Configure and return a tree from the
@@ -144,13 +142,6 @@ class Tree
     return str
   end
 
-  # Return the string representing the given amount
-  # of padding.
-  #
-  def pad(padding)
-    return (PAD_CHAR * padding)
-  end
-
   # Does this node represent a unary rule?
   #
   def is_unary?
@@ -159,16 +150,15 @@ class Tree
 
   # Converts this tree to a string.
   #
-  def to_s
-    rv = "(#{@head} "
+  def to_s(padding=0)
+    rv = ('  ' * padding) + "(#{@head} "
     if @subtrees.is_a? Array
-      rv += @subtrees.collect do |tr|
-        tr.to_s
-      end.join(" ")
+      rv += "\n" + @subtrees.map do |tr|
+        tr.to_s(padding + 1)
+      end.join("\n")
     else # string
-      rv += @subtrees.to_s
+      rv += ' ' + @subtrees
     end
-    return rv + ")"
+    rv + ")"
   end
-
 end
