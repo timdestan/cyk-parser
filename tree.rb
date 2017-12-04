@@ -148,16 +148,27 @@ class Tree
     (not @subtrees.is_a? Array) or (@subtrees.length == 1)
   end
 
-  # Converts this tree to a string.
-  #
-  def to_s(padding=0)
-    rv = ('  ' * padding) + "(#{@head} "
+  class PrintMode
+    PRETTY = 1
+    COMPACT = 2
+  end
+
+  def to_s; format(PrintMode::COMPACT) end
+  def pretty_print; format(PrintMode::PRETTY) end
+
+  def format(mode, padding=0)
+    rv = ''
+    rv += ('  ' * padding) if mode == PrintMode::PRETTY
+    rv += "(#{@head} "
     if @subtrees.is_a? Array
-      rv += "\n" + @subtrees.map do |tr|
-        tr.to_s(padding + 1)
-      end.join("\n")
+      rv += "\n" if mode == PrintMode::PRETTY
+      sep = (mode == PrintMode::PRETTY) ? "\n" : ' '
+      rv += @subtrees.map do |tr|
+        tr.format(mode, padding + 1)
+      end.join(sep)
     else # string
-      rv += ' ' + @subtrees
+      rv += ' ' if mode == PrintMode::PRETTY
+      rv += @subtrees.to_s
     end
     rv + ")"
   end

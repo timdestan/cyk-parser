@@ -1,10 +1,18 @@
 #!/bin/bash
 
-differences=$(diff testdata/output_parse_trees <(ruby pp.rb testdata/input_parse_trees))
+function check() {
+  cmd=$1
+  expected_out_file=$2
 
-if [[ -z "$differences" ]] ; then
-  echo "Pass"
-else
-  echo "Failed"
-  echo "$differences"
-fi
+  differences=$(diff "${expected_out_file}" <(ruby ${cmd}))
+
+  if [[ -z "$differences" ]] ; then
+    echo "Pass"
+  else
+    echo "Failed"
+    echo "$differences"
+  fi
+}
+
+check "pp.rb testdata/pp.in" "testdata/pp.out"
+check "main.rb testdata/main.train testdata/main.test" "testdata/main.out"

@@ -6,5 +6,5 @@ def fail(reason); puts reason; exit end
 fail "usage: #{$0} FILENAME(S)" if ARGV.empty?
 
 ARGF.each do |f|
-  puts Tree.from_string(f)
+  puts Tree.from_string(f).pretty_print
 end
