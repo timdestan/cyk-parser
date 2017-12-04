@@ -119,7 +119,7 @@ class Tree
     # atrocious performance
     @head = ""
     while str[0] != " "
-      @head += str[0]
+      @head << str[0]
       str = str[1..-1]
     end
     str.strip!
@@ -134,7 +134,7 @@ class Tree
       # Seriously, this could be done so much smarter.
       @subtrees = ""
       while str[0] != ")"
-        @subtrees += str[0]
+        @subtrees << str[0]
         str = str[1..-1]
       end
     end
@@ -158,18 +158,18 @@ class Tree
 
   def format(mode, padding=0)
     rv = ''
-    rv += ('  ' * padding) if mode == PrintMode::PRETTY
-    rv += "(#{@head} "
+    rv << ('  ' * padding) if mode == PrintMode::PRETTY
+    rv << "(#{@head} "
     if @subtrees.is_a? Array
-      rv += "\n" if mode == PrintMode::PRETTY
+      rv << "\n" if mode == PrintMode::PRETTY
       sep = (mode == PrintMode::PRETTY) ? "\n" : ' '
-      rv += @subtrees.map do |tr|
+      rv << @subtrees.map do |tr|
         tr.format(mode, padding + 1)
       end.join(sep)
     else # string
-      rv += ' ' if mode == PrintMode::PRETTY
-      rv += @subtrees.to_s
+      rv << ' ' if mode == PrintMode::PRETTY
+      rv << @subtrees.to_s
     end
-    rv + ")"
+    rv << ")"
   end
 end
