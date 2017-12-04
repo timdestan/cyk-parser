@@ -23,16 +23,15 @@ end
 
 result = RubyProf.profile do
   training_trees = read_trees(TRAINING_FILENAME, 1000)
-  # test_trees = read_trees(TEST_FILENAME, limit=1000)
-  CYKParser.new(training_trees)
+  test_trees = read_trees(TEST_FILENAME, 10)
+  parser = CYKParser.new(training_trees)
+
+  test_trees.each do |tree|
+    pos = tree.get_leaves()
+    guess, _ = parser.parse(pos)
+    guess.unfactor() unless guess.nil?
+  end
 end
 
-# test_trees.each do |tree|
-#   pos = tree.get_leaves()
-#   guess, _ = parser.parse(pos)
-#   guess.unfactor() unless guess.nil?
-# end
-
-puts "Profile for reading trees"
-printer = RubyProf::FlatPrinter.new(result)
-printer.print(STDOUT)
+printer = RubyProf::GraphHtmlPrinter.new(result)
+printer.print(STDOUT, :min_percent => 0)
